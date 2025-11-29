@@ -10,6 +10,11 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+        .profile-photo{width:96px;height:96px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,0.6);box-shadow:0 2px 6px rgba(0,0,0,0.12)}
+        .profile-header{display:flex;align-items:center;gap:1rem;justify-content:center}
+        @media (max-width:480px){.profile-photo{width:64px;height:64px}.profile-header{gap:.6rem}}
+        </style>
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
     <body class="is-preload">
@@ -34,7 +39,10 @@
                 <!-- Intro -->
                     <section id="intro" class="wrapper style1 fullscreen fade-up">
                         <div class="inner">
-                            <h1>Rezart Abazi</h1>
+                            <div class="profile-header">
+                                <img src="images/my_photo_v2.png" alt="Rezart Abazi" class="profile-photo" />
+                                <h1 style="margin:0">Rezart Abazi</h1>
+                            </div>
                             <p>Becoming a better AI Engineer, one day at a time. 🤖👨🏼‍💻🛫.</p>
                             <ul class="actions">
                                 <li><a href="#projects" class="button scrolly">View Projects</a></li>
