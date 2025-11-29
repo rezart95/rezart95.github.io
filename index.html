@@ -8,9 +8,10 @@
         <style>
         .profile-photo{width:380px;height:380px;border-radius:0;object-fit:cover;border:2px solid rgba(255,255,255,0.6);box-shadow:0 2px 6px rgba(0,0,0,0.12);flex-shrink:0;margin-left:4rem}
         .profile-header{display:flex;align-items:center;gap:8rem;justify-content:center;flex-wrap:wrap}
-        .profile-header .actions{margin-top:8rem}
+        .profile-header > div{display:flex;flex-direction:column;justify-content:space-between;height:380px}
+        .profile-header .actions{margin-top:0}
         .profile-header .actions .button{border-color:white !important}
-        @media (max-width:480px){.profile-photo{width:150px;height:150px;margin-left:0}.profile-header{gap:1.2rem}}
+        @media (max-width:480px){.profile-photo{width:150px;height:150px;margin-left:0}.profile-header{gap:1.2rem}.profile-header > div{height:auto}}
         </style>
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
