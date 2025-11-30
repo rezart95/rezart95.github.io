@@ -8,10 +8,12 @@
         <style>
         .profile-photo{width:380px;height:380px;border-radius:0;object-fit:cover;border:2px solid rgba(255,255,255,0.6);box-shadow:0 2px 6px rgba(0,0,0,0.12);flex-shrink:0;margin-left:4rem}
         .profile-header{display:flex;align-items:flex-start;gap:8rem;justify-content:center;flex-wrap:wrap}
-        .profile-header > div{position:relative;height:380px}
-        .profile-header .actions{position:absolute;bottom:0;left:0;margin-top:0}
+        .profile-header > div{position:relative;height:380px;display:flex;flex-direction:column;justify-content:space-between}
+        .profile-header h1{margin:0 !important}
+        .profile-header p{margin:0.3rem 0 0 0 !important}
+        .profile-header .actions{margin:0 !important}
         .profile-header .actions .button{border-color:white !important}
-        @media (max-width:480px){.profile-photo{width:150px;height:150px;margin-left:0}.profile-header{gap:1.2rem}.profile-header > div{height:auto;position:static}.profile-header .actions{position:static}}
+        @media (max-width:480px){.profile-photo{width:150px;height:150px;margin-left:0}.profile-header{gap:1.2rem}.profile-header > div{height:auto}}
         </style>
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
