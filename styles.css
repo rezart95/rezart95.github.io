@@ -298,26 +298,6 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
 .product__how a { color: var(--ink-2); }
 .product__how a:hover { color: var(--gold-ink); }
 
-.chart { margin-block: var(--s2); padding: var(--s3) 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); display: grid; gap: 0.9rem; }
-.chart figcaption { font-size: 0.875rem; color: var(--muted); margin-bottom: 0.2rem; }
-.chart__row { display: grid; grid-template-columns: 13rem 1fr 3.5rem; align-items: center; gap: var(--s2); }
-.chart__label { font-size: 0.9375rem; color: var(--ink-2); }
-.chart__track { height: 10px; background: var(--paper-2); position: relative; }
-.chart__bar {
-  position: absolute; inset: 0 auto 0 0;
-  width: calc(var(--v) / 2 * 100%); min-width: 3px;
-  background: #B8BDC8;
-  transform-origin: left center;
-}
-.chart__row--win .chart__bar { background: var(--gold); }
-.chart__value { font-variant-numeric: tabular-nums; font-size: 1.25rem; font-weight: 400; text-align: right; letter-spacing: -0.02em; }
-.chart__row--win .chart__value { color: var(--gold-ink); font-weight: 500; }
-.chart--mini { margin: 0; padding: 0; border: 0; gap: 0.55rem; align-items: stretch; text-align: left; }
-.chart--mini figcaption { font-size: 0.8125rem; }
-.chart--mini .chart__row { grid-template-columns: 5.5rem 1fr 2.5rem; gap: 0.6rem; }
-.chart--mini .chart__label { font-size: 0.8125rem; }
-.chart--mini .chart__track { height: 8px; }
-.chart--mini .chart__value { font-size: 1rem; }
 
 .links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin-top: var(--s1); }
 .links a { display: inline-flex; align-items: center; gap: 0.35em; font-weight: 500; text-decoration: underline; }
@@ -335,7 +315,6 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
 .product:last-child { border-bottom: 0; }
 .product__how { font-size: 0.9375rem; color: var(--muted); line-height: 1.6; }
 .product__figure { grid-column: 10 / span 3; display: flex; flex-direction: column; align-items: flex-end; text-align: right; gap: 0.35rem; font-size: 0.875rem; color: var(--muted); }
-.product__figure.chart--mini { display: grid; align-items: stretch; text-align: left; align-self: start; }
 .product__num { font-size: clamp(2rem, 3vw, 2.5rem); font-weight: 300; letter-spacing: -0.035em; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
 .product__num { background-image: linear-gradient(var(--gold), var(--gold)); background-size: 100% 2px; background-repeat: no-repeat; background-position: 0 100%; padding-bottom: 0.25rem; }
 
@@ -352,14 +331,6 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
 .close__links a:hover { color: var(--ink); text-decoration: underline; }
 .close__place { grid-column: 11 / span 2; text-align: right; color: var(--muted); font-size: 0.9375rem; }
 .colophon { display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--s1) var(--s3); padding-block: var(--s3); background: linear-gradient(var(--rule), var(--rule)) var(--gutter) 0 / calc(100% - 2 * var(--gutter)) 1px no-repeat; font-size: 0.8125rem; color: var(--muted); }
-
-/* ---------- Motion (signature: figures settle, chart draws) ---------- */
-.js .chart__bar { transform: scaleX(0); transition: transform 1.1s var(--ease); }
-.js .chart.is-in .chart__bar { transform: scaleX(1); }
-.js .chart.is-in .chart__row--win .chart__bar { transition-delay: 0.25s; }
-@media (prefers-reduced-motion: reduce) {
-  .js .chart__bar { transform: none; transition: none; }
-}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
@@ -391,7 +362,6 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
   .phone { margin-inline: auto; }
   .feature__shot figcaption { text-align: center; }
   .product .product-head, .product__body, .product__figure { grid-column: 1 / -1; }
-  .chart--mini { max-width: 360px; }
   .close__title, .close__links, .close__place { grid-column: 1 / -1; text-align: left; }
   .close__links { gap: 0 1.5rem; }
 }
@@ -410,7 +380,4 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
   .decisions { grid-template-columns: 1fr; }
   .agents > div { grid-template-columns: 7rem 1fr; gap: var(--s1); }
   .figure-list .figure__value { font-size: 2.25rem; }
-  .chart__row { grid-template-columns: 1fr 3rem; row-gap: 0.4rem; }
-  .chart__label { grid-column: 1 / -1; }
-  .chart__track { grid-column: 1; }
 }

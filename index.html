@@ -13,6 +13,12 @@
   <meta property="og:url" content="https://rezart95.github.io/">
   <meta property="og:image" content="https://rezart95.github.io/images/portrait.webp">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Rezart">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="preload" href="assets/fonts/Geist.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <script>document.documentElement.classList.add('js')</script>
@@ -78,7 +84,7 @@
             <p class="employer__name">Senior AI Engineer</p>
             <p class="employer__role">Feb 2026 – present</p>
           </div>
-          <h2 class="spread__title" id="now-title">A text-to-SQL agent system for a supply-chain department of about 1,500 people.</h2>
+          <h2 class="spread__title" id="now-title">An internal multi-agent system for the supply-chain department, about 1,500 people.</h2>
         </div>
 
         <div class="figures">
@@ -110,8 +116,8 @@
       <h2 class="chapter__title" id="built-title">What I built</h2>
       <ol class="decisions">
         <li>
-          <h3>A text-to-SQL agent</h3>
-          <p>People ask in plain language. The agent finds the right tables through MCP tools over the metadata catalog, writes the SQL and runs it on Amazon Redshift.</p>
+          <h3>Questions in plain language</h3>
+          <p>People ask in plain language. The system finds the right tables through MCP tools over the metadata catalog, writes the SQL and runs it on Amazon Redshift.</p>
         </li>
         <li>
           <h3>A multi-agent architecture</h3>
@@ -279,19 +285,6 @@
             <p class="product__what">Runs a weekly pickup football game in Kraków for about 20 players: waitlist, payments, WhatsApp reminders.</p>
             <p class="product__how">Claude rates the players inside a LangGraph flow, an exhaustive solver builds the teams, and Claude explains the split. <a href="https://github.com/rezart95/footbolski" target="_blank" rel="noopener">Source on GitHub</a>.</p>
           </div>
-          <figure class="chart chart--mini product__figure" aria-labelledby="chart-cap">
-            <figcaption id="chart-cap">Average strength gap between teams</figcaption>
-            <div class="chart__row">
-              <span class="chart__label">LLM alone</span>
-              <span class="chart__track"><span class="chart__bar" style="--v: 1.79"></span></span>
-              <span class="chart__value">1.79</span>
-            </div>
-            <div class="chart__row chart__row--win">
-              <span class="chart__label">LLM + solver</span>
-              <span class="chart__track"><span class="chart__bar" style="--v: 0.03"></span></span>
-              <span class="chart__value">0.03</span>
-            </div>
-          </figure>
         </li>
         <li class="product">
           <div class="product-head">
@@ -315,7 +308,7 @@
       <div class="wrap close__grid">
         <h2 class="close__title" id="contact-title">Contact</h2>
         <ul class="close__links">
-          <li><a href="mailto:rezart392@gmail.com">rezart392@gmail.com</a></li>
+          <li><a href="mailto:rezart392@gmail.com">Email</a></li>
           <li><a href="https://www.linkedin.com/in/rezart-abazi/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a></li>
           <li><a href="https://github.com/rezart95" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a></li>
           <li><a href="Rezart_Abazi_AI_Engineer.pdf" target="_blank" rel="noopener">CV <svg class="icon"><use href="#i-down"/></svg></a></li>
@@ -324,7 +317,7 @@
       </div>
       <footer class="wrap colophon">
         <span>© 2026 Rezart Abazi</span>
-        <span>Set in Geist · Updated November 2026</span>
+        <span>Updated November 2026</span>
       </footer>
     </section>
 

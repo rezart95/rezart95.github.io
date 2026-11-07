@@ -8,6 +8,10 @@ It was redesigned with Impeccable as a Swiss-grid "annual report" page. Product
 truth lives in `PRODUCT.md`, the visual system in `DESIGN.md`, and the
 direction contract in `.impeccable/surfaces/index-html.md`. Read those before
 changing copy or design. Preview it locally with `python -m http.server 5500`.
+It is also an installable PWA (`manifest.webmanifest`, `icons/`, `sw.js`). The
+service worker serves assets from its cache first, so **bump `VERSION` in
+`sw.js` whenever you change a shipped file**, or installed copies keep the old
+version until a second visit.
 
 This file sums up the recent work on the owner's other public surfaces
 (November 2026), so that website changes stay consistent with them.

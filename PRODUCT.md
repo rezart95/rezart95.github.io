@@ -80,6 +80,9 @@ LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python · FastAPI · Postg
 - **Almanac is the featured product**, presented as its next stage: a multi-agent system that runs the household's finances (analyst with 15 read-only tools from plan 3A; forecasting, goal-driven savings plans and live mortgage-rate research from the AI financial analyst roadmap; tools over MCP; per-member scopes; writes need a person's confirmation). It is **in development** and must always be labelled so; its phone screen is a concept with illustrative figures. The four agent roles (Analyst, Forecaster, Planner, Researcher) are the site's framing of that roadmap.
 - **LegalHub**: RAG with spatial and temporal awareness (where a rule applies, when it was in force), per the owner.
 - Footbolski is a regular product row, not the feature (owner: too simple to headline).
+- Motorola framing (owner, 2026-11-08): call it "an internal multi-agent system for the supply-chain department", not a "text-to-SQL agent", which undersells it. Text-to-SQL is one capability, described inside "What I built".
+- Footbolski's strength-gap chart is removed; contact shows "Email" rather than the address.
+- The site is installable as a PWA (manifest, icons in `icons/`, offline cache in `sw.js`).
 - Motorola Solutions logo: the owner-supplied stacked logo, recoloured for the dark band (`images/logos/motorola-solutions-on-dark.png`).
 
 ## Brand Commitments

@@ -131,7 +131,7 @@ components:
 
 The career is typeset like a company's annual report: a cover, a dark key-figures spread, then chapters set as ruled tables on a strict 12-column grid. Authority comes from alignment, hairline rules and real numbers, never from decoration. The page is bright white stock with graphite ink, one gold, and one flat deep-space spread that ties the site to the owner's GitHub banner.
 
-Density is editorial rather than dashboard: generous vertical chapters (up to 8.5rem apart), tight internal rhythm, and every row closed by a rule instead of enclosed in a box. Type does the hierarchy: Geist Light at display scale, Medium for row titles, Regular for reading text. Motion is almost absent; the one signature is that the measured figures settle and the one chart draws, once.
+Density is editorial rather than dashboard: generous vertical chapters (up to 8.5rem apart), tight internal rhythm, and every row closed by a rule instead of enclosed in a box. Type does the hierarchy: Geist Light at display scale, Medium for row titles, Regular for reading text. Motion is almost absent; the one signature is that the measured figures settle, once.
 
 The world refuses the dev-portfolio default: no dark gradient hero, no cards, no skill bars, no monospace, no pill buttons.
 
@@ -147,8 +147,8 @@ The world refuses the dev-portfolio default: no dark gradient hero, no cards, no
 A cool, near-neutral graphite scale on white, with one warm gold doing all the accent work.
 
 ### Primary
-- **Report Gold** (`gold`): rules and markers only: the short rule under the cover title, the top rule of the key-figures table, the top rule of each "What I built" column, the winning chart bar, the plus and unit marks beside figures, link underlines, and the underline under product figures. Never body text on white.
-- **Ledger Gold** (`gold-ink`): gold that has to carry text on white: the winning chart value, footnote markers, link hover, the focus ring.
+- **Report Gold** (`gold`): rules and markers only: the short rule under the cover title, the top rule of the key-figures table, the top rule of each "What I built" column, the plus and unit marks beside figures, link underlines, and the underline under product figures. Never body text on white.
+- **Ledger Gold** (`gold-ink`): gold that has to carry text on white: link hover, the focus ring.
 - **Gold Wash** (`gold-soft`): text selection on white only.
 
 ### Neutral
@@ -239,8 +239,9 @@ The core table pattern for experience and products: a 12-column row, `s3` paddin
 ### Key-Figures Spread (signature)
 A full-bleed `space` band. The head pairs the employer (the owner-supplied stacked Motorola Solutions logo in its own blue with a white wordmark, then role and dates) against a Light headline, both on `space-rule` top rules. Below, a gold top rule opens the figures table: a period line in `gold` at label size stating the measurement window, a lead figure with a vertical `space-rule` divider, and a ruled list of label-value rows. Plus, approx and unit marks are gold. On entry the numbers settle once: they run from 90% of the real value up to it over 900ms on an exponential ease-out. Under reduced motion, or without JavaScript, they render static at the real value.
 
-### Comparison Chart (signature)
-A ruled figure: caption, then rows of label, 10px `paper-2` track and tabular value. The losing bar is `bar-neutral`, the winning bar `gold` with its value in `gold-ink` at weight 500. Bars draw from the left on entry (scaleX, 1.1s, ease cubic-bezier(0.16, 1, 0.3, 1)), the winner 0.25s later. Static under reduced motion and without JavaScript.
+### Comparison Chart (retired)
+
+No comparison chart ships since 2026-11-08 (the owner removed the Footbolski chart). The `bar-neutral` and `chart-track` tokens stay reserved for a future data chart, which would follow the same grammar: ruled rows, tabular values, the winning value in `gold-ink`.
 
 ### Device Shot
 An authored concept screen of the featured product, drawn in HTML in that product's own palette (Almanac's green paper, spine and stamp purple), inside a 7px `ink` frame with `rounded.device` corners, max 300px wide, right-aligned on columns 9-12. Its caption always says it is a concept with illustrative figures.
