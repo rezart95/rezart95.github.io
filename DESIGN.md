@@ -182,7 +182,7 @@ A cool, near-neutral graphite scale on white, with one warm gold doing all the a
 ### Hierarchy
 - **Display** (300, `display`, lh 0.98, -0.04em): the cover title only; followed by a 72px by 2px gold rule.
 - **Figure Lead / Figure** (300, `figure-lead` / `figure`, lh 1, -0.04em, tabular): measured values in the key-figures spread. Product figures use the same voice at clamp(2rem, 3vw, 2.5rem).
-- **Headline** (300, `headline`, lh 1.08, -0.035em): chapter titles, sitting on a `rule-strong` rule. Close and spread titles are the same voice at their own clamps (up to 4rem and 3rem).
+- **Headline** (300, `headline`, lh 1.08, -0.035em): chapter titles, sitting on a `rule-strong` rule. The spread title is the same voice at its own clamp (up to 3rem).
 - **Title** (500, 1.1875rem, lh 1.3, -0.015em): row titles in ledgers and the "built" columns. Product names step up to 1.375rem (feature product: clamp(1.75rem, 2.6vw, 2.25rem) at 400).
 - **Lede** (400, `lede`, lh 1.5, max 34ch): the cover pitch.
 - **Body** (400, 1.0625rem, lh 1.6; 1rem under 560px): reading text, capped at 60ch in rows and 46ch in chapter intros.
@@ -212,7 +212,7 @@ Flat. There is no elevation vocabulary: no drop shadows, no layered surfaces. De
 
 ## Shapes
 
-Interface chrome is square: buttons, the CV control, tracks and bars all use `rounded.none`. Rounding exists only where the depicted object is itself round: app icons keep their platform squircle (about 22% of their size: 10px at 44px, 11px at 48px, 13px at 56px) and phone screenshots sit in a device frame (6px `ink` border, `rounded.device`). The focus ring has a 2px radius for legibility. Recurring geometry is the short gold rule (72px by 2px under the cover title, 2px over each "built" column, 2px under product figures).
+Interface chrome is square: buttons, the CV control, tracks and bars all use `rounded.none`. Rounding exists only where the depicted object is itself round: app icons keep their platform squircle (about 22% of their size: 10px at 44px, 11px at 48px, 13px at 56px) and the featured product's phone sits in a device frame (7px `ink` border, `rounded.device`). The focus ring has a 2px radius for legibility. Recurring geometry is the short gold rule (72px by 2px under the cover title, 2px over each "built" column, 2px under product figures).
 
 **The Square Chrome Rule.** Actions are squared, never pills. Corner radius belongs to depicted devices and app marks, not to interface elements.
 
@@ -231,19 +231,19 @@ Plain and confident, like a report's call to action.
 A sticky 60px masthead: the name at weight 500 on the left, section links in `ink-2` meta size, then the CV control. Links darken to `ink` and underline on hover. Under 860px the links wrap to a horizontally scrolling row with 40px targets.
 
 ### Links
-Inline links keep the text colour and take a 1px `gold` underline offset 0.22em; link groups use weight 500 and turn `gold-ink` on hover. The contact email is the one large link (clamp 1.375-1.875rem) with a 2px gold underline.
+Inline links keep the text colour and take a 1px `gold` underline offset 0.22em; link groups use weight 500 and turn `gold-ink` on hover. The contact block is deliberately quiet: one ruled row with a small "Contact" heading, then email, LinkedIn, GitHub and CV all at body size. No headline, no hiring ask, no large email.
 
 ### Ledger Row
 The core table pattern for experience and products: a 12-column row, `s3` padding, 1px `rule` underneath, no background. Employer logos sit at 44px, greyscale at 72% opacity. Product rows add a right-aligned figure in the Light figure voice with a 2px gold underline, present only when a real measurement exists.
 
 ### Key-Figures Spread (signature)
-A full-bleed `space` band. The head pairs the employer (white single-ink logo, name, role) against a Light headline, both on `space-rule` top rules. Below, a gold top rule opens the figures table: a period line in `gold` at label size stating the measurement window, a lead figure with a vertical `space-rule` divider, and a ruled list of label-value rows. Plus, approx and unit marks are gold. On entry the numbers settle once: they run from 90% of the real value up to it over 900ms on an exponential ease-out. Under reduced motion, or without JavaScript, they render static at the real value.
+A full-bleed `space` band. The head pairs the employer (the owner-supplied stacked Motorola Solutions logo in its own blue with a white wordmark, then role and dates) against a Light headline, both on `space-rule` top rules. Below, a gold top rule opens the figures table: a period line in `gold` at label size stating the measurement window, a lead figure with a vertical `space-rule` divider, and a ruled list of label-value rows. Plus, approx and unit marks are gold. On entry the numbers settle once: they run from 90% of the real value up to it over 900ms on an exponential ease-out. Under reduced motion, or without JavaScript, they render static at the real value.
 
 ### Comparison Chart (signature)
 A ruled figure: caption, then rows of label, 10px `paper-2` track and tabular value. The losing bar is `bar-neutral`, the winning bar `gold` with its value in `gold-ink` at weight 500. Bars draw from the left on entry (scaleX, 1.1s, ease cubic-bezier(0.16, 1, 0.3, 1)), the winner 0.25s later. Static under reduced motion and without JavaScript.
 
 ### Device Shot
-A phone screenshot in a 6px `ink` frame with `rounded.device` corners, max 300px wide, right-aligned on columns 9-12 with a fine-print caption.
+An authored concept screen of the featured product, drawn in HTML in that product's own palette (Almanac's green paper, spine and stamp purple), inside a 7px `ink` frame with `rounded.device` corners, max 300px wide, right-aligned on columns 9-12. Its caption always says it is a concept with illustrative figures.
 
 ## Do's and Don'ts
 
@@ -251,7 +251,7 @@ A phone screenshot in a 6px `ink` frame with `rounded.device` corners, max 300px
 - **Do** lay every block on the 12-column grid and close rows with a rule.
 - **Do** set display and headline sizes in Geist 300 with negative tracking, and every number in tabular figures.
 - **Do** use `gold` for rules, bars and marks, and `gold-ink` whenever gold must be read on white.
-- **Do** keep employer logos single-ink (greyscale on white, inverted white on the spread); product app icons keep their own colours because they are the product's mark.
+- **Do** keep former-employer logos single-ink greyscale on white; the current employer's mark keeps its blue on the spread; product app icons keep their own colours because they are the product's mark.
 - **Do** show a figure only where a real measurement exists, and pair it with its unit or period.
 - **Do** make every animation static under `prefers-reduced-motion` and without JavaScript.
 

@@ -74,6 +74,14 @@ Dropped, never shown: Restok inventory app, Fashion Procurement placeholder, "AI
 ### Toolbox (matches the GitHub profile)
 LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python · FastAPI · PostgreSQL · React · Docker · AWS · GCP · Azure.
 
+### Owner decisions, 2026-11-08 (override the repo-verified figures for display)
+- Tone: **not job-seeking.** The owner does not want to read as waiting to be picked by a recruiter. No hiring asks; the contact block is a quiet row (email in body size, LinkedIn, GitHub, CV), never a headline.
+- Display figures confirmed by the owner: FashionPricing **30+ brands**; My Finances Analyst **1,400** transactions (rounded from 1,328); MiredheLire **100,000+ products** shown explicitly as the catalogue's target, not as the current count. The test-environment footnote is dropped.
+- **Almanac is the featured product**, presented as its next stage: a multi-agent system that runs the household's finances (analyst with 15 read-only tools from plan 3A; forecasting, goal-driven savings plans and live mortgage-rate research from the AI financial analyst roadmap; tools over MCP; per-member scopes; writes need a person's confirmation). It is **in development** and must always be labelled so; its phone screen is a concept with illustrative figures. The four agent roles (Analyst, Forecaster, Planner, Researcher) are the site's framing of that roadmap.
+- **LegalHub**: RAG with spatial and temporal awareness (where a rule applies, when it was in force), per the owner.
+- Footbolski is a regular product row, not the feature (owner: too simple to headline).
+- Motorola Solutions logo: the owner-supplied stacked logo, recoloured for the dark band (`images/logos/motorola-solutions-on-dark.png`).
+
 ## Brand Commitments
 
 - Voice: professional but entertaining. No emojis. No AI-sounding filler or awkward phrasing (e.g. "rounding up my knowledge with Terraform"). Seniority shown through decisions and results, not adjectives.

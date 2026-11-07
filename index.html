@@ -74,9 +74,9 @@
       <div class="wrap">
         <div class="spread__head">
           <div class="employer">
-            <img class="employer__logo" src="images/logos/motorola-solutions.svg" alt="" width="200" height="23">
-            <p class="employer__name">Motorola Solutions</p>
-            <p class="employer__role">Senior AI Engineer<br>Feb 2026 – present</p>
+            <img class="employer__logo" src="images/logos/motorola-solutions-on-dark.png" alt="Motorola Solutions logo" width="320" height="275">
+            <p class="employer__name">Senior AI Engineer</p>
+            <p class="employer__role">Feb 2026 – present</p>
           </div>
           <h2 class="spread__title" id="now-title">A text-to-SQL agent system for a supply-chain department of about 1,500 people.</h2>
         </div>
@@ -174,45 +174,54 @@
 
     <!-- Products -->
     <section class="chapter wrap" id="products" aria-labelledby="products-title">
-      <div class="chapter__intro">
-        <h2 class="chapter__title" id="products-title">Products I build and run myself</h2>
-        <p>Six live products, each built end to end on my own time: the agents, the data, the interface and the deployment. All self-hosted on Coolify behind Cloudflare.</p>
-      </div>
+      <h2 class="chapter__title" id="products-title">Products I build and run myself</h2>
 
-      <article class="feature" aria-labelledby="p-footbolski">
+      <article class="feature" aria-labelledby="p-almanac">
         <div class="feature__text">
           <div class="product-head">
-            <img class="app-icon" src="images/apps/footbolski.webp" alt="" width="48" height="48">
+            <img class="app-icon" src="images/apps/almanac.webp" alt="" width="48" height="48">
             <div>
-              <h3 id="p-footbolski">Footbolski</h3>
-              <p class="product-head__meta">Weekly football, Kraków · in use every week since May 2026</p>
+              <h3 id="p-almanac">Almanac</h3>
+              <p class="product-head__meta">Household finance · used by a household of two · agents in development</p>
             </div>
           </div>
-          <p>Runs a pickup game for about 20 players: waitlist, payment tracking, WhatsApp reminders. The hard part is fair teams, and that turned out to be a search problem, not a writing task.</p>
-          <p>The first version asked Claude for teams and reasoning in one go. Now Claude rates the players inside a LangGraph flow, an exhaustive solver builds the teams, and Claude explains the final split.</p>
+          <p>Almanac already turns bank statements into a reconciled ledger. Categorisation weighs several signals, from merchant matching and web enrichment to Claude batch classification, and a two-framing consensus sends every disagreement to a person.</p>
+          <p>Next, it becomes a multi-agent system that runs our household finances. Each agent gets only the tools it needs, served over MCP, and nothing is written without a person confirming it.</p>
 
-          <figure class="chart" aria-labelledby="chart-cap">
-            <figcaption id="chart-cap">Average strength gap between the two teams</figcaption>
-            <div class="chart__row">
-              <span class="chart__label">One-shot LLM split</span>
-              <span class="chart__track"><span class="chart__bar" style="--v: 1.79"></span></span>
-              <span class="chart__value">1.79</span>
-            </div>
-            <div class="chart__row chart__row--win">
-              <span class="chart__label">LLM judges, solver splits</span>
-              <span class="chart__track"><span class="chart__bar" style="--v: 0.03"></span></span>
-              <span class="chart__value">0.03</span>
-            </div>
-          </figure>
+          <dl class="agents">
+            <div><dt>Analyst</dt><dd>Answers from the household ledger through 15 read-only tools.</dd></div>
+            <div><dt>Forecaster</dt><dd>Projects income and spending from the monthly series.</dd></div>
+            <div><dt>Planner</dt><dd>Turns a goal, like a house deposit, into a savings plan and tracks it.</dd></div>
+            <div><dt>Researcher</dt><dd>Checks live mortgage rates on the web.</dd></div>
+          </dl>
 
           <p class="links">
-            <a href="https://footbolski.org" target="_blank" rel="noopener">footbolski.org <svg class="icon"><use href="#i-arrow"/></svg></a>
-            <a href="https://github.com/rezart95/footbolski" target="_blank" rel="noopener">Source on GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="https://xtractor.financial-insights.uk" target="_blank" rel="noopener">xtractor.financial-insights.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
           </p>
         </div>
+
         <figure class="feature__shot">
-          <img src="images/shots/footbolski-teams.webp" width="520" height="1125" loading="lazy" alt="Footbolski on a phone: Team A in red and Team B in blue, each player listed with a position">
-          <figcaption>Team screen, with sample players</figcaption>
+          <div class="phone" role="img" aria-label="Concept of the Almanac assistant on a phone. Asked whether the household can afford a flat by 2029, four agents report their steps and the answer proposes a savings goal that waits for confirmation.">
+            <div class="am" aria-hidden="true">
+              <div class="am__top"><span class="am__brand">Almanac</span><span class="am__scope">Household</span></div>
+              <p class="am__q">Can we afford a flat by 2029?</p>
+              <ol class="am__trace">
+                <li><b>Analyst</b> read four years of the ledger</li>
+                <li><b>Forecaster</b> projected income and spending</li>
+                <li><b>Researcher</b> checked current mortgage rates</li>
+                <li><b>Planner</b> drafted a savings plan</li>
+              </ol>
+              <div class="am__answer">
+                <p>At your current pace, the 120,000&nbsp;PLN deposit is ready in <b>March 2029</b>.</p>
+                <p>Moving 600&nbsp;PLN a month from dining out brings it to <b>October 2028</b>.</p>
+                <div class="am__progress"><span style="--p: 0.38"></span></div>
+                <p class="am__progress-label"><span>45,600 PLN saved</span><span>38%</span></p>
+                <div class="am__confirm"><span class="am__btn">Save as goal</span><span class="am__note">Waits for your confirmation</span></div>
+              </div>
+              <div class="am__input">Ask about your money</div>
+            </div>
+          </div>
+          <figcaption>Concept screen, illustrative figures</figcaption>
         </figure>
       </article>
 
@@ -229,7 +238,7 @@
             <p class="product__what">Price comparison for Albania. It scrapes shops and groups their offers into canonical products.</p>
             <p class="product__how">A pipeline of specialised Claude agents: Haiku extracts identity, a Sonnet agent on the Claude Agent SDK resolves it with MCP tools, Sonnet places the category. Deterministic checks on every verdict, a cost ledger with budgets, and an Opus repair agent that opens code-fix PRs, built and waiting to deploy.</p>
           </div>
-          <p class="product__figure"><span class="product__num">19,730</span><span>products from 12 shops<sup><a href="#fn1" id="fr1" aria-label="Note 1">1</a></sup></span></p>
+          <p class="product__figure"><span class="product__num">100,000+</span><span>products, the catalogue's target</span></p>
         </li>
         <li class="product">
           <div class="product-head">
@@ -243,20 +252,46 @@
             <p class="product__what">Competitive pricing intelligence for Polish fashion brands, with variant-level price history.</p>
             <p class="product__how">Its analyst, Emily, is a LangGraph agent: a Haiku guard screens each question, a Sonnet ReAct agent answers with 15 read-only analytics tools, and every run is traced in Langfuse.</p>
           </div>
-          <p class="product__figure"><span class="product__num">26</span><span>brands tracked</span></p>
+          <p class="product__figure"><span class="product__num">30+</span><span>brands tracked</span></p>
         </li>
         <li class="product">
           <div class="product-head">
-            <img class="app-icon" src="images/apps/almanac.webp" alt="" width="40" height="40">
+            <img class="app-icon" src="images/apps/legalhub.webp" alt="" width="40" height="40">
             <div>
-              <h3>Almanac</h3>
-              <a href="https://xtractor.financial-insights.uk" target="_blank" rel="noopener">xtractor.financial-insights.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <h3>LegalHub</h3>
+              <a href="https://legalhub.al" target="_blank" rel="noopener">legalhub.al <svg class="icon"><use href="#i-arrow"/></svg></a>
             </div>
           </div>
           <div class="product__body">
-            <p class="product__what">Turns a household's bank statements into a reconciled ledger, with analytics and a review queue.</p>
-            <p class="product__how">Categorisation weighs rules, merchant matching, Perplexity web enrichment and Claude batch classification, then a two-framing consensus: when the framings disagree, a person decides.</p>
+            <p class="product__what">A legal assistant for Albania that answers from the country's legislation.</p>
+            <p class="product__how">LangGraph RAG with spatial and temporal awareness: retrieval knows where a rule applies and when it was in force, not only which passage matches the words.</p>
           </div>
+        </li>
+        <li class="product">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/footbolski.webp" alt="" width="40" height="40">
+            <div>
+              <h3>Footbolski</h3>
+              <a href="https://footbolski.org" target="_blank" rel="noopener">footbolski.org <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product__body">
+            <p class="product__what">Runs a weekly pickup football game in Kraków for about 20 players: waitlist, payments, WhatsApp reminders.</p>
+            <p class="product__how">Claude rates the players inside a LangGraph flow, an exhaustive solver builds the teams, and Claude explains the split. <a href="https://github.com/rezart95/footbolski" target="_blank" rel="noopener">Source on GitHub</a>.</p>
+          </div>
+          <figure class="chart chart--mini product__figure" aria-labelledby="chart-cap">
+            <figcaption id="chart-cap">Average strength gap between teams</figcaption>
+            <div class="chart__row">
+              <span class="chart__label">LLM alone</span>
+              <span class="chart__track"><span class="chart__bar" style="--v: 1.79"></span></span>
+              <span class="chart__value">1.79</span>
+            </div>
+            <div class="chart__row chart__row--win">
+              <span class="chart__label">LLM + solver</span>
+              <span class="chart__track"><span class="chart__bar" style="--v: 0.03"></span></span>
+              <span class="chart__value">0.03</span>
+            </div>
+          </figure>
         </li>
         <li class="product">
           <div class="product-head">
@@ -270,38 +305,22 @@
             <p class="product__what">Reads bank statements and turns them into a spending dashboard: overview, prices, habits, merchants.</p>
             <p class="product__how">Azure AI Document Intelligence extracts every line from Bank Millennium PDFs; the transactions are categorised and charted in React, on desktop and phone.</p>
           </div>
-          <p class="product__figure"><span class="product__num">1,328</span><span>real transactions, 2019–2022</span></p>
-        </li>
-        <li class="product">
-          <div class="product-head">
-            <img class="app-icon" src="images/apps/legalhub.webp" alt="" width="40" height="40">
-            <div>
-              <h3>LegalHub</h3>
-              <a href="https://legalhub.al" target="_blank" rel="noopener">legalhub.al <svg class="icon"><use href="#i-arrow"/></svg></a>
-            </div>
-          </div>
-          <div class="product__body">
-            <p class="product__what">A legal assistant for Albania that answers from the country's legislation.</p>
-            <p class="product__how">Retrieval-augmented generation in LangGraph over Albanian law, so answers stay tied to the texts they come from.</p>
-          </div>
+          <p class="product__figure"><span class="product__num">1,400</span><span>real transactions, 2019–2022</span></p>
         </li>
       </ol>
-      <p class="footnote" id="fn1"><a href="#fr1" aria-label="Back to MiredheLire">1</a> New catalogue in the test environment; the live site still runs the previous matching logic.</p>
     </section>
 
     <!-- Contact -->
     <section class="close" id="contact" aria-labelledby="contact-title">
       <div class="wrap close__grid">
-        <h2 class="close__title" id="contact-title">Hiring for a senior AI role? I'd be glad to hear about it.</h2>
-        <div class="close__links">
-          <a class="close__email" href="mailto:rezart392@gmail.com">rezart392@gmail.com</a>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/rezart-abazi/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a></li>
-            <li><a href="https://github.com/rezart95" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a></li>
-            <li><a href="Rezart_Abazi_AI_Engineer.pdf" target="_blank" rel="noopener">Download CV <svg class="icon"><use href="#i-down"/></svg></a></li>
-          </ul>
-          <p class="close__place">Based in Kraków, Poland</p>
-        </div>
+        <h2 class="close__title" id="contact-title">Contact</h2>
+        <ul class="close__links">
+          <li><a href="mailto:rezart392@gmail.com">rezart392@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/rezart-abazi/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://github.com/rezart95" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="Rezart_Abazi_AI_Engineer.pdf" target="_blank" rel="noopener">CV <svg class="icon"><use href="#i-down"/></svg></a></li>
+        </ul>
+        <p class="close__place">Kraków, Poland</p>
       </div>
       <footer class="wrap colophon">
         <span>© 2026 Rezart Abazi</span>
