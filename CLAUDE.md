@@ -1,14 +1,16 @@
 # rezart95.github.io: context for website work
 
 Personal website of Rezart Abazi, served by GitHub Pages at https://rezart95.github.io/.
-It is a static HTML5 UP template (`index.html`, `assets/`, `images/`, plus the
-template's leftover `elements.html` and `generic.html`) and the CV
-`Rezart_Abazi_AI_Engineer.pdf`. This file sums up the recent work on the owner's
-other public surfaces (November 2026), so that website changes stay consistent
-with them.
+Since November 2026 it is a hand-written static page with no build step:
+`index.html`, `styles.css`, `main.js`, `favicon.svg`, self-hosted Geist in
+`assets/fonts/`, images in `images/`, and the CV `Rezart_Abazi_AI_Engineer.pdf`.
+It was redesigned with Impeccable as a Swiss-grid "annual report" page. Product
+truth lives in `PRODUCT.md`, the visual system in `DESIGN.md`, and the
+direction contract in `.impeccable/surfaces/index-html.md`. Read those before
+changing copy or design. Preview it locally with `python -m http.server 5500`.
 
-The site currently mentions ALDI, fashion and finances work, but it has not been
-audited against the facts below. Check it against them before changing claims.
+This file sums up the recent work on the owner's other public surfaces
+(November 2026), so that website changes stay consistent with them.
 
 ## Who he is (confirmed by the owner)
 

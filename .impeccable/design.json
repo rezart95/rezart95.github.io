@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T23:45:00Z",
+  "title": "Design System: Rezart Abazi",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "White Stock",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Proof Grey",
+        "canonical": "oklch(97.6% 0.003 265)",
+        "tonalRamp": [
+          "#0B0B0C",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#A4A5A7",
+          "#C8C9CB",
+          "#EDEEF0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "oklch(18.7% 0.011 268)",
+        "tonalRamp": [
+          "#090B10",
+          "#23252A",
+          "#3F4248",
+          "#5E6168",
+          "#7F8289",
+          "#A2A5AC",
+          "#C6C9D0",
+          "#EBEEF6"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "oklch(36.8% 0.022 267)",
+        "tonalRamp": [
+          "#070B14",
+          "#202530",
+          "#3D424E",
+          "#5C616E",
+          "#7C8290",
+          "#9FA5B3",
+          "#C3C9D8",
+          "#E8EEFE"
+        ]
+      },
+      "ink-raised": {
+        "role": "neutral",
+        "displayName": "Raised Graphite",
+        "canonical": "oklch(30.1% 0.019 268)",
+        "tonalRamp": [
+          "#080B13",
+          "#21252F",
+          "#3E424C",
+          "#5C616C",
+          "#7D828E",
+          "#A0A5B1",
+          "#C4C9D6",
+          "#E9EEFC"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cool Grey",
+        "canonical": "oklch(50.3% 0.023 267)",
+        "tonalRamp": [
+          "#070B15",
+          "#202531",
+          "#3C424F",
+          "#5B616F",
+          "#7C8291",
+          "#9EA5B4",
+          "#C2C9D9",
+          "#E7EEFF"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(92.2% 0.007 269)",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#242529",
+          "#404246",
+          "#5F6165",
+          "#808287",
+          "#A3A5AA",
+          "#C7C9CE",
+          "#ECEEF3"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Structural Rule",
+        "canonical": "oklch(18.7% 0.011 268)",
+        "tonalRamp": [
+          "#090B10",
+          "#23252A",
+          "#3F4248",
+          "#5E6168",
+          "#7F8289",
+          "#A2A5AC",
+          "#C6C9D0",
+          "#EBEEF6"
+        ]
+      },
+      "bar-neutral": {
+        "role": "neutral",
+        "displayName": "Bar Grey",
+        "canonical": "oklch(79.8% 0.016 266)",
+        "tonalRamp": [
+          "#080B12",
+          "#21252D",
+          "#3E424B",
+          "#5D616B",
+          "#7E828D",
+          "#A0A5B0",
+          "#C4C9D4",
+          "#E9EEFA"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Report Gold",
+        "canonical": "oklch(77.3% 0.089 82)",
+        "tonalRamp": [
+          "#1C0300",
+          "#3A1E00",
+          "#593C00",
+          "#7A5B1B",
+          "#9D7D3F",
+          "#C1A062",
+          "#E6C485",
+          "#FFE9AA"
+        ]
+      },
+      "gold-ink": {
+        "role": "primary",
+        "displayName": "Ledger Gold",
+        "canonical": "oklch(54.6% 0.088 79)",
+        "tonalRamp": [
+          "#1D0200",
+          "#3B1D00",
+          "#5B3B00",
+          "#7C5B1D",
+          "#9F7C41",
+          "#C39F63",
+          "#E8C386",
+          "#FFE8AB"
+        ]
+      },
+      "gold-soft": {
+        "role": "primary",
+        "displayName": "Gold Wash",
+        "canonical": "oklch(92.7% 0.047 88)",
+        "tonalRamp": [
+          "#130900",
+          "#2E2306",
+          "#4C4124",
+          "#6C6042",
+          "#8E8162",
+          "#B1A484",
+          "#D6C8A7",
+          "#FCEDCB"
+        ]
+      },
+      "space": {
+        "role": "neutral",
+        "displayName": "Deep Space",
+        "canonical": "oklch(16.0% 0.013 270)",
+        "tonalRamp": [
+          "#090B11",
+          "#22252C",
+          "#3F4249",
+          "#5E6169",
+          "#7F828B",
+          "#A2A5AE",
+          "#C6C9D2",
+          "#EBEEF8"
+        ]
+      },
+      "space-ink": {
+        "role": "neutral",
+        "displayName": "Starlight",
+        "canonical": "oklch(96.1% 0.004 271)",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#242527",
+          "#414244",
+          "#606164",
+          "#818285",
+          "#A4A5A8",
+          "#C8C9CC",
+          "#EDEEF1"
+        ]
+      },
+      "space-muted": {
+        "role": "neutral",
+        "displayName": "Nebula Grey",
+        "canonical": "oklch(70.8% 0.023 266)",
+        "tonalRamp": [
+          "#070B15",
+          "#202531",
+          "#3C424F",
+          "#5B616F",
+          "#7C8291",
+          "#9EA5B4",
+          "#C2C9D9",
+          "#E7EFFF"
+        ]
+      },
+      "space-rule": {
+        "role": "neutral",
+        "displayName": "Orbit Rule",
+        "canonical": "oklch(29.0% 0.025 268)",
+        "tonalRamp": [
+          "#070B16",
+          "#202531",
+          "#3C4250",
+          "#5B6170",
+          "#7C8292",
+          "#9EA5B5",
+          "#C2C9DA",
+          "#E7EEFF"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Cover title only, followed by a 72px x 2px gold rule."
+      },
+      "figure-lead": {
+        "displayName": "Figure Lead",
+        "purpose": "The lead measured value in the key-figures spread."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Measured values in figure lists; product figures at clamp(2rem, 3vw, 2.5rem)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Chapter titles on a graphite rule; close and spread titles share the voice."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Row titles in ledgers and the built columns; product names at 1.375rem."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Cover pitch, max 34ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, 60ch in rows; 1rem under 560px."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Nav, dates, roles, product meta."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Captions, definition terms, the figures' period line; sentence case, no tracking."
+      }
+    },
+    "shadows": [
+      {
+        "name": "icon-keyline",
+        "value": "0 0 0 1px rgba(17,19,24,0.08)",
+        "purpose": "Hairline edge that follows an app icon's rounded shape. A border, not elevation; the system has no drop shadows."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-report",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Chart bar draw: scaleX 0 to 1 over 1.1s, winning bar delayed 0.25s."
+      },
+      {
+        "name": "figure-settle",
+        "value": "900ms, from 90% of the value, eased 1 - 2^(-10t), once at 35% visibility",
+        "purpose": "Key figures settle to their real value. Skipped under reduced motion; the markup already holds the real value."
+      },
+      {
+        "name": "hover-colour",
+        "value": "0.2s colour/background transition",
+        "purpose": "The only other motion: hover and state colour on links, nav and buttons."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Figures and bars render static; smooth scrolling is turned off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1080px"
+      },
+      {
+        "name": "tablet",
+        "value": "860px"
+      },
+      {
+        "name": "phone",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid graphite action, squared; the single primary call to action.",
+      "html": "<a class=\"ds-btn ds-btn--solid\" href=\"#\">Email me</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 0.5em; min-height: 48px; padding: 0 1.4rem; border: 1px solid var(--ink); border-radius: 0; font-family: var(--sans); font-size: 1rem; font-weight: 500; text-decoration: none; color: var(--ink); transition: background 0.2s, color 0.2s, border-color 0.2s; } .ds-btn--solid { background: var(--ink); color: var(--paper); } .ds-btn--solid:hover { background: #2A2E38; border-color: #2A2E38; } .ds-btn:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined squared action beside the primary; external links carry an arrow-out icon.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">LinkedIn <svg width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M5 11 11 5M6 5h5v5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 0.5em; min-height: 48px; padding: 0 1.4rem; border: 1px solid var(--ink); border-radius: 0; background: transparent; font-family: var(--sans); font-size: 1rem; font-weight: 500; text-decoration: none; color: var(--ink); transition: background 0.2s; } .ds-btn-ghost:hover { background: var(--paper-2); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "cv-control",
+      "description": "Sticky 60px bar: name, section links, squared CV control; near-opaque paper over a hairline.",
+      "html": "<header class=\"ds-mast\"><a class=\"ds-mast__name\" href=\"#\">Rezart Abazi</a><nav class=\"ds-mast__nav\"><a href=\"#\">Now</a><a href=\"#\">Experience</a><a href=\"#\">Products</a><a href=\"#\">Contact</a></nav><a class=\"ds-mast__cv\" href=\"#\">CV <svg width=\"13\" height=\"13\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 3v8M4.5 7.5 8 11l3.5-3.5M3.5 13.5h9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></header>",
+      "css": ".ds-mast { display: flex; align-items: center; gap: 1.5rem; height: 60px; padding: 0 24px; background: color-mix(in srgb, var(--paper) 92%, transparent); border-bottom: 1px solid var(--rule); font-family: var(--sans); color: var(--ink); } .ds-mast__name { font-weight: 500; letter-spacing: -0.01em; text-decoration: none; color: inherit; margin-right: auto; } .ds-mast__nav { display: flex; gap: 1.5rem; } .ds-mast__nav a { font-size: 0.9375rem; color: var(--ink-2); text-decoration: none; transition: color 0.2s; } .ds-mast__nav a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 0.22em; } .ds-mast__cv { display: inline-flex; align-items: center; gap: 0.4em; padding: 0.38rem 0.8rem; border: 1px solid var(--ink); border-radius: 0; font-size: 0.9375rem; color: var(--ink); text-decoration: none; transition: background 0.2s, color 0.2s; } .ds-mast__cv:hover { background: var(--ink); color: var(--paper); } .ds-mast a:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Ledger Row",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "The core ruled-table row: date, organisation, result; closed by a hairline, never boxed.",
+      "html": "<div class=\"ds-ledger\"><p class=\"ds-ledger__date\">Nov 2022 – Dec 2023</p><div class=\"ds-ledger__org\"><h3>Procter &amp; Gamble</h3><p>AI Engineer · Warsaw</p></div><p class=\"ds-ledger__result\">Tuned dynamic-bidding models across <strong>2,000+</strong> campaigns: <strong>20%</strong> lower cost for the same share of shelf.</p></div>",
+      "css": ".ds-ledger { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 1.5rem; padding-block: 1.5rem; border-bottom: 1px solid var(--rule); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.6; color: var(--ink); } .ds-ledger p, .ds-ledger h3 { margin: 0; } .ds-ledger__date { grid-column: 1 / span 2; color: var(--muted); font-size: 0.9375rem; font-variant-numeric: tabular-nums; } .ds-ledger__org { grid-column: 3 / span 4; } .ds-ledger__org h3 { font-size: 1.1875rem; font-weight: 500; letter-spacing: -0.015em; line-height: 1.3; } .ds-ledger__org p { font-size: 0.9375rem; color: var(--muted); } .ds-ledger__result { grid-column: 7 / span 6; color: var(--ink-2); } .ds-ledger strong { font-weight: 600; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Key-Figures Spread",
+      "kind": "custom",
+      "refersTo": "key-figures-spread",
+      "description": "Flat Deep Space band; gold-ruled table of real measurements with a period line, lead figure and ruled list.",
+      "html": "<section class=\"ds-spread\"><div class=\"ds-figs\"><p class=\"ds-figs__period\">First 100 days after launch</p><div class=\"ds-figs__lead\"><p class=\"ds-figs__val ds-figs__val--lead\">14,000<span>+</span></p><p class=\"ds-figs__label\">queries asked</p></div><dl class=\"ds-figs__list\"><div><dt>Unique users</dt><dd class=\"ds-figs__val\">800<span>+</span></dd></div><div><dt>Average time to answer</dt><dd class=\"ds-figs__val\"><span>~</span>20<span>s</span></dd></div></dl></div></section>",
+      "css": ".ds-spread { background: var(--space); color: var(--space-ink); padding: 4rem 24px; font-family: var(--sans); } .ds-figs { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 1.5rem; border-top: 1px solid var(--gold); border-bottom: 1px solid var(--space-rule); } .ds-figs p, .ds-figs dl, .ds-figs dd { margin: 0; } .ds-figs__period { grid-column: 1 / -1; padding-block: 0.75rem; font-size: 0.875rem; color: var(--gold); border-bottom: 1px solid var(--space-rule); } .ds-figs__lead { grid-column: 1 / span 6; padding: 1.5rem 1.5rem 1.5rem 0; border-right: 1px solid var(--space-rule); } .ds-figs__val { display: flex; align-items: baseline; font-weight: 300; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; font-size: clamp(2.25rem, 4vw, 3.25rem); } .ds-figs__val--lead { font-size: clamp(4rem, 10vw, 6rem); } .ds-figs__val span { color: var(--gold); font-weight: 300; } .ds-figs__label { margin-top: 1rem; font-size: 1.0625rem; max-width: 22ch; } .ds-figs__list { grid-column: 7 / span 6; } .ds-figs__list > div { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; padding-block: 1.5rem; border-bottom: 1px solid var(--space-rule); } .ds-figs__list > div:last-child { border-bottom: 0; } .ds-figs__list dt { font-size: 1rem; }"
+    },
+    {
+      "name": "Comparison Chart",
+      "kind": "custom",
+      "refersTo": "chart-track",
+      "description": "Ruled two-bar comparison; the winning bar in gold with its value in Ledger Gold. Bars draw once on entry.",
+      "html": "<figure class=\"ds-chart\"><figcaption>Average strength gap between the two teams</figcaption><div class=\"ds-chart__row\"><span class=\"ds-chart__label\">One-shot LLM split</span><span class=\"ds-chart__track\"><span class=\"ds-chart__bar\" style=\"width:89.5%\"></span></span><span class=\"ds-chart__value\">1.79</span></div><div class=\"ds-chart__row ds-chart__row--win\"><span class=\"ds-chart__label\">LLM judges, solver splits</span><span class=\"ds-chart__track\"><span class=\"ds-chart__bar\" style=\"width:1.5%\"></span></span><span class=\"ds-chart__value\">0.03</span></div></figure>",
+      "css": ".ds-chart { margin: 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); display: grid; gap: 0.9rem; font-family: var(--sans); color: var(--ink); } .ds-chart figcaption { font-size: 0.875rem; color: var(--muted); } .ds-chart__row { display: grid; grid-template-columns: 13rem 1fr 3.5rem; align-items: center; gap: 1rem; } .ds-chart__label { font-size: 0.9375rem; color: var(--ink-2); } .ds-chart__track { height: 10px; background: var(--paper-2); position: relative; } .ds-chart__bar { position: absolute; inset: 0 auto 0 0; min-width: 3px; background: #B8BDC8; } .ds-chart__row--win .ds-chart__bar { background: var(--gold); } .ds-chart__value { font-variant-numeric: tabular-nums; font-size: 1.25rem; text-align: right; letter-spacing: -0.02em; } .ds-chart__row--win .ds-chart__value { color: var(--gold-ink); font-weight: 500; }"
+    },
+    {
+      "name": "Chapter Title",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Geist Light headline standing on a graphite rule; opens every chapter.",
+      "html": "<h2 class=\"ds-chapter\">Before Motorola</h2>",
+      "css": ".ds-chapter { margin: 0; font-family: var(--sans); font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 300; line-height: 1.08; letter-spacing: -0.035em; color: var(--ink); padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule-strong); }"
+    },
+    {
+      "name": "Contact Email Link",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "The one large link: the closing email with a 2px gold underline.",
+      "html": "<a class=\"ds-email\" href=\"#\">rezart392@gmail.com</a>",
+      "css": ".ds-email { display: inline-block; font-family: var(--sans); font-size: clamp(1.375rem, 2.2vw, 1.875rem); font-weight: 400; letter-spacing: -0.02em; color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 0.25em; transition: color 0.2s; } .ds-email:hover { color: var(--gold-ink); } .ds-email:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 3px; border-radius: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Annual Report",
+    "overview": "The career is typeset like a company's annual report: a cover, a dark key-figures spread, then chapters set as ruled tables on a strict 12-column grid. Authority comes from alignment, hairline rules and real numbers, never from decoration. The page is bright white stock with graphite ink, one gold, and one flat deep-space spread that ties the site to the owner's GitHub banner.\n\nDensity is editorial rather than dashboard: generous vertical chapters (up to 8.5rem apart), tight internal rhythm, and every row closed by a rule instead of enclosed in a box. Type does the hierarchy: Geist Light at display scale, Medium for row titles, Regular for reading text. Motion is almost absent; the one signature is that the measured figures settle and the one chart draws, once.\n\nThe world refuses the dev-portfolio default: no dark gradient hero, no cards, no skill bars, no monospace, no pill buttons.",
+    "keyCharacteristics": [
+      "White stock, graphite ink, a single gold; one flat dark spread per page at most.",
+      "12-column grid with rules in place of containers.",
+      "Geist only, Light at display scale, tabular numerals on every figure and date.",
+      "Squared interface chrome; rounding only on objects that are round in reality.",
+      "Motion reserved for measured data; everything else is still except hover colour."
+    ],
+    "rules": [
+      {
+        "name": "The One Gold Rule",
+        "body": "Gold is the only hue. It marks structure and measurement; it never fills a surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Carries Text Only as Ledger Gold Rule",
+        "body": "On white, any gold glyph that must be read uses `gold-ink`; `gold` is reserved for rules, bars and underlines. On `space`, `gold` itself may be read.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Spread Rule",
+        "body": "Deep Space appears as one full-bleed band holding real key figures. It is not a theme toggle, not a hero, and never a gradient.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every figure, date and number set in `<strong>` uses tabular numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Light-at-Scale Rule",
+        "body": "Anything at headline size or larger is Geist 300 with negative tracking; weight 500 is for row titles and the name, never for display.",
+        "section": "typography"
+      },
+      {
+        "name": "The No-Mono Rule",
+        "body": "No monospace anywhere. Geist Mono was tried and dropped because it read as dev costume.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rule-Not-Box Rule",
+        "body": "Structure is drawn with horizontal rules on the grid, never with enclosing borders, backgrounds or cards.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Stock Rule",
+        "body": "If a surface looks lifted off the page, it is wrong.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Chrome Rule",
+        "body": "Actions are squared, never pills. Corner radius belongs to depicted devices and app marks, not to interface elements.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** lay every block on the 12-column grid and close rows with a rule.",
+      "**Do** set display and headline sizes in Geist 300 with negative tracking, and every number in tabular figures.",
+      "**Do** use `gold` for rules, bars and marks, and `gold-ink` whenever gold must be read on white.",
+      "**Do** keep employer logos single-ink (greyscale on white, inverted white on the spread); product app icons keep their own colours because they are the product's mark.",
+      "**Do** show a figure only where a real measurement exists, and pair it with its unit or period.",
+      "**Do** make every animation static under `prefers-reduced-motion` and without JavaScript."
+    ],
+    "donts": [
+      "**Don't** use cards, boxed containers, or background fills to group content.",
+      "**Don't** add drop shadows or elevation; the only shadow is the 1px app-icon keyline.",
+      "**Don't** round interface elements or use pill buttons; radius is for app icons and device frames.",
+      "**Don't** use colour gradients. The flat Deep Space spread stays flat (solid-colour gradients used as rule lines are fine).",
+      "**Don't** use monospace type anywhere.",
+      "**Don't** animate anything except measured data entering view and hover colour.",
+      "**Don't** introduce a second accent hue."
+    ]
+  }
+}

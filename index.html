@@ -1,234 +1,316 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Rezart Abazi - AI Engineer</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <style>
-        .profile-photo{width:380px;height:380px;border-radius:0;object-fit:cover;border:2px solid rgba(255,255,255,0.6);box-shadow:0 2px 6px rgba(0,0,0,0.12);flex-shrink:0;margin-left:4rem}
-        .profile-header{display:flex;align-items:flex-start;gap:8rem;justify-content:center;flex-wrap:wrap}
-        .profile-header > div{position:relative;height:380px;display:flex;flex-direction:column;justify-content:space-between}
-        .profile-header h1{margin:0 !important}
-        .profile-header p{margin:0.3rem 0 0 0 !important}
-        .profile-header .actions{margin:0 !important;text-align:left;justify-content:flex-start}
-        .profile-header .actions .button{border-color:white !important}
-        @media (max-width:480px){.profile-photo{width:150px;height:150px;margin-left:0;order:-1}.profile-header{gap:1.2rem;flex-direction:column;align-items:center}.profile-header > div{height:auto;text-align:center}.profile-header p{margin-bottom:1rem !important}}
-        </style>
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    </head>
-    <body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rezart Abazi · Senior AI Engineer</title>
+  <meta name="description" content="Rezart Abazi, Senior AI Engineer in Kraków. Multi-agent systems, RAG and agentic AI in production, plus six AI products he builds and runs himself.">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="canonical" href="https://rezart95.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Rezart Abazi · Senior AI Engineer">
+  <meta property="og:description" content="Multi-agent systems, RAG and agentic AI in production, plus six AI products built and run end to end.">
+  <meta property="og:url" content="https://rezart95.github.io/">
+  <meta property="og:image" content="https://rezart95.github.io/images/portrait.webp">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rezart Abazi",
+    "jobTitle": "Senior AI Engineer",
+    "worksFor": { "@type": "Organization", "name": "Motorola Solutions" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Kraków", "addressCountry": "PL" },
+    "email": "mailto:rezart392@gmail.com",
+    "url": "https://rezart95.github.io/",
+    "sameAs": ["https://www.linkedin.com/in/rezart-abazi/", "https://github.com/rezart95"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
 
-        <!-- Sidebar -->
-            <section id="sidebar">
-                <div class="inner">
-                    <nav>
-                        <ul>
-                            <li><a href="#intro">Welcome</a></li>
-                            <li><a href="#about">About My Experience</a></li>
-                            <li><a href="#projects">Projects & Skills</a></li>
-                            <li><a href="#contact">Get in touch</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-down" viewBox="0 0 16 16"><path d="M8 3v8M4.5 7.5 8 11l3.5-3.5M3.5 13.5h9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
 
-        <!-- Wrapper -->
-            <div id="wrapper">
+  <header class="masthead">
+    <div class="wrap masthead__row">
+      <a class="masthead__name" href="#top">Rezart Abazi</a>
+      <nav class="masthead__nav" aria-label="Sections">
+        <a href="#now">Now</a>
+        <a href="#experience">Experience</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="masthead__cv" href="Rezart_Abazi_AI_Engineer.pdf" target="_blank" rel="noopener">CV <svg class="icon"><use href="#i-down"/></svg></a>
+    </div>
+  </header>
 
-                <!-- Intro -->
-                    <section id="intro" class="wrapper style1 fullscreen fade-up">
-                        <div class="inner">
-                            <div class="profile-header">
-                                <div>
-                                    <div>
-                                        <h1 style="margin:0">Rezart Abazi</h1>
-                                        <p style="margin-top:0.3rem;">Becoming a better AI Engineer,<br> one day at a time.</p>
-                                    </div>
-                                    <ul class="actions">
-                                        <li><a href="#projects" class="button scrolly">View Projects</a></li>
-                                        <li><a href="Rezart_Abazi_AI_Engineer.pdf" class="button" target="_blank">Download CV</a></li>
-                                    </ul>
-                                </div>
-                                <img src="images/my_photo_v2.png" alt="Rezart Abazi" class="profile-photo" />
-                            </div>
-                        </div>
-                    </section>
+  <main id="main">
 
-                <!-- About & Experience -->
-                    <section id="about" class="wrapper style2 spotlights">
-    <section>
-        <a href="#" class="image"><img src="images/aldi-nord.png" alt="ALDI Nord Logo" data-position="center center" style="background:#fff;border-radius:12px;padding:8px;max-width:180px;max-height:120px;object-fit:contain;" /></a>
-        <div class="content">
-            <div class="inner">
-                <h2>ALDI Nord</h2>
-                <h4>AI Engineer <span style="font-weight:normal;"></span></h4>
-                <p>Developing enterprise AI solutions including RAG chatbots, vector search systems for customer service automation and internal knowledge management.</p>
-            </div>
+    <!-- Cover -->
+    <section class="cover wrap" id="top" aria-labelledby="cover-title">
+      <div class="cover__text">
+        <h1 class="cover__title" id="cover-title">Senior AI&nbsp;Engineer</h1>
+        <p class="cover__pitch">I build multi-agent and RAG systems that hold up in front of real users: at work for an entire supply-chain department, after hours for six products I run myself.</p>
+        <div class="cover__actions">
+          <a class="btn btn--solid" href="mailto:rezart392@gmail.com">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/rezart-abazi/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a>
         </div>
+      </div>
+      <figure class="cover__figure">
+        <img src="images/portrait.webp" width="454" height="523" alt="Rezart Abazi, smiling, in a blue sweater at the Data Science Summit">
+        <figcaption><span class="cover__who">Rezart Abazi</span><span>Kraków, Poland</span></figcaption>
+      </figure>
     </section>
-    <section>
-        <a href="#" class="image"><img src="images/proctergamble.png" alt="Procter & Gamble Logo" data-position="top center" style="background:#fff;border-radius:12px;padding:8px;max-width:180px;max-height:120px;object-fit:contain;" /></a>
-        <div class="content">
-            <div class="inner">
-                <h2>Procter & Gamble</h2>
-                <h4>AI Engineer<span style="font-weight:normal;"></span></h4>
-                <p>Refined and updated dynamic bidding machine learning algorithms in collaboration with the Data Science team, achieving 20% cost savings across 2000+ e-commerce campaigns on platforms like Amazon and Walmart.</p>
-            </div>
+
+    <!-- Key figures: current role -->
+    <section class="spread" id="now" aria-labelledby="now-title">
+      <div class="wrap">
+        <div class="spread__head">
+          <div class="employer">
+            <img class="employer__logo" src="images/logos/motorola-solutions.svg" alt="" width="200" height="23">
+            <p class="employer__name">Motorola Solutions</p>
+            <p class="employer__role">Senior AI Engineer<br>Feb 2026 – present</p>
+          </div>
+          <h2 class="spread__title" id="now-title">A text-to-SQL agent system for a supply-chain department of about 1,500 people.</h2>
         </div>
-    </section>
-    <section>
-        <a href="#" class="image"><img src="images/dyvenia.png" alt="Dyvenia Logo" data-position="25% 25%" style="background:#fff;border-radius:12px;padding:8px;max-width:180px;max-height:120px;object-fit:contain;" /></a>
-        <div class="content">
-            <div class="inner">
-                <h2>Dyvenia</h2>
-                <h4>Data Engineer <span style="font-weight:normal;"></span></h4>
-                <p>Developed ETL automation systems, document intelligence solutions, and geospatial models for client data processing and analytics workflows.</p>
+
+        <div class="figures">
+          <p class="figures__period">First 100 days after launch</p>
+          <div class="figure figure--lead">
+            <p class="figure__value"><span class="num" data-to="14000">14,000</span><span class="figure__plus">+</span></p>
+            <p class="figure__label">queries asked</p>
+          </div>
+          <dl class="figure-list">
+            <div class="figure">
+              <dt class="figure__label">Unique users</dt>
+              <dd class="figure__value"><span class="num" data-to="800">800</span><span class="figure__plus">+</span></dd>
             </div>
+            <div class="figure">
+              <dt class="figure__label">Requests handled</dt>
+              <dd class="figure__value"><span class="num" data-to="50000">50,000</span><span class="figure__plus">+</span></dd>
+            </div>
+            <div class="figure">
+              <dt class="figure__label">Average time to answer</dt>
+              <dd class="figure__value"><span class="figure__approx">~</span><span class="num" data-to="20">20</span><span class="figure__unit">s</span></dd>
+            </div>
+          </dl>
         </div>
+      </div>
     </section>
-            <section>
-                <a href="#" class="image"><img src="images/citi.png" alt="Citi Group Logo" data-position="center center" style="background:#fff;border-radius:12px;padding:8px;max-width:180px;max-height:120px;object-fit:contain;" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>Citi</h2>
-                        <h4>Data Analyst <span style="font-weight:normal;"></span></h4>
-                        <p>Managed settlement of mutual and hedge fund orders, retrieving and analyzing data from internal databases using SQL Server. Automated Excel data transformation with Python, streamlining daily operations and improving reporting efficiency for both internal teams and clients.</p>
-                    </div>
-                </div>
-            </section>
-</section>
 
-                <!-- Projects & Skills -->
-                    <section id="projects" class="wrapper style1 fade-up">
-                        <div class="inner">
-                            <h2>Projects & Skills</h2>
-                            <p class="lead" style="max-width:58ch;margin-top:-.3em;margin-bottom:2.8em;font-size:1.05em;line-height:1.55;">Selected projects showcasing applied skills in AI systems.</p>
-                            <div class="features">
-                                <section>
-                                    <span class="icon solid major fa-robot"></span>
-                                    <h3>AI Lawyer</h3>
-                                    <p>A LangGraph-native RAG agentic system for Albanian law that answers strictly from a vetted corpus of official documents. The agent orchestrates retrieval, re-ranking, and citation-grounded generation enforcing source fidelity and refusing to answer beyond indexed texts.</p>
-                                    <ul class="actions">
-                                        <li><a href="https://www.avokatiyt.al/" class="button small" target="_blank">View Project</a></li>
-                                    </ul>
-                                </section>
-                                <section>
-                                    <span class="icon solid major fa-chart-line"></span>
-                                    <h3>My Finance Auditor</h3>
-                                    <p>A mobile-optimized webapp leveraging Azure Document Intelligence and OCR to extract transform and visualise in a modern dashboard the information from bank transactions.</p>
-                                    <ul class="actions">
-                                        <li><a href="https://finances-analyst-frontend.onrender.com" class="button small" target="_blank">View Project</a></li>
-                                    </ul>
-                                </section>
-                                <section>
-                                    <span class="icon solid major fa-tshirt"></span>
-                                    <h3>Fashion Procurement AI</h3>
-                                    <p>An intelligent procurement and price-monitoring application tailored for fashion retail, tracking supplier prices and optimizing buying decisions. Features a LangGraph Data Analyst agent that answers questions about the data present in the database.</p>
-                                    <ul class="actions">
-                                        <li><a href="https://fashion-price-analytics.onrender.com" class="button small" target="_blank">View Project</a></li>
-                                    </ul>
-                                </section>
-                                <section>
-                                    <span class="icon solid major fa-cloud"></span>
-                                    <h3>Cloud Deployment</h3>
-                                    <p>Experience deploying applications on cloud platforms including Azure App Services and AI Foundry. Uses Terraform (IaC) for infrastructure provisioning. Understanding of CI/CD pipelines and cloud architecture.</p>
-                                </section>
-                                <section>
-                                    <span class="icon solid major fa-database"></span>
-                                    <h3>Data Management</h3>
-                                    <p>Proficient in database design, SQL queries, and data modeling. Experience with both relational and NoSQL databases for various applications.</p>
-                                </section>
+    <!-- What I built at Motorola -->
+    <section class="chapter wrap" aria-labelledby="built-title">
+      <h2 class="chapter__title" id="built-title">What I built</h2>
+      <ol class="decisions">
+        <li>
+          <h3>A text-to-SQL agent</h3>
+          <p>People ask in plain language. The agent finds the right tables through MCP tools over the metadata catalog, writes the SQL and runs it on Amazon Redshift.</p>
+        </li>
+        <li>
+          <h3>A multi-agent architecture</h3>
+          <p>I designed and implemented the improved multi-agent architecture behind it.</p>
+        </li>
+        <li>
+          <h3>Inside Google Chat</h3>
+          <p>Integrated through the Google Chat SDK, so business users ask where they already work, without learning a new tool.</p>
+        </li>
+        <li>
+          <h3>Tested in Langfuse</h3>
+          <p>Answer quality is tested and traced in Langfuse, so the agents are judged on evidence.</p>
+        </li>
+      </ol>
+    </section>
 
-                                <section>
-                                    <span class="icon solid major fa-code-branch"></span>
-                                    <h3>Version Control & Collaboration</h3>
-                                    <p>Proficient with version control (Git), modern development environments, and collaboration platforms including Jira, Confluence, and Azure DevOps.</p>
-                                </section>
-                            </div>
-                        </div>
-                    </section>
+    <!-- Experience -->
+    <section class="chapter wrap" id="experience" aria-labelledby="exp-title">
+      <h2 class="chapter__title" id="exp-title">Before Motorola</h2>
+      <ol class="ledger">
+        <li class="ledger__row">
+          <p class="ledger__date">Dec 2023 – Jan 2026</p>
+          <div class="ledger__org">
+            <img class="logo logo--square" src="images/logos/aldi-nord.svg" alt="" width="40" height="40">
+            <div><h3>ALDI Nord</h3><p>AI Engineer · Kraków</p></div>
+          </div>
+          <p class="ledger__result">Built the customer-care RAG chatbot: a Salesforce knowledge base, Databricks Vector Search and Azure AI Foundry, served through FastAPI into the care team's own tool. Helped shape the company-wide AI strategy.</p>
+        </li>
+        <li class="ledger__row">
+          <p class="ledger__date">Nov 2022 – Dec 2023</p>
+          <div class="ledger__org">
+            <img class="logo logo--square" src="images/logos/pg.svg" alt="" width="40" height="40">
+            <div><h3>Procter &amp; Gamble</h3><p>AI Engineer · Warsaw</p></div>
+          </div>
+          <p class="ledger__result">Tuned dynamic-bidding models across <strong>2,000+</strong> campaigns on Amazon, Walmart and Target: <strong>20%</strong> lower cost for the same or better share of shelf.</p>
+        </li>
+        <li class="ledger__row">
+          <p class="ledger__date">Nov 2021 – Nov 2022</p>
+          <div class="ledger__org">
+            <img class="logo logo--square" src="images/logos/dyvenia.png" alt="" width="40" height="40">
+            <div><h3>Dyvenia</h3><p>Data Engineer · Kraków</p></div>
+          </div>
+          <p class="ledger__result">Pipelines from SAP into Azure Data Lake, PDF extraction with Azure Form Recognizer, and geospatial SQL models for marketing campaigns across Northern and Southern Europe.</p>
+        </li>
+        <li class="ledger__row">
+          <p class="ledger__date">Dec 2020 – Nov 2021</p>
+          <div class="ledger__org">
+            <img class="logo logo--wide" src="images/logos/citi.svg" alt="" width="40" height="24">
+            <div><h3>Citi</h3><p>Data Analyst, Middle Office · Warsaw</p></div>
+          </div>
+          <p class="ledger__result">Settled mutual and hedge fund orders on SQL Server and automated the team's daily Excel reporting in Python.</p>
+        </li>
+      </ol>
+      <dl class="facts">
+        <div><dt>Education</dt><dd>MSc Data Science, University of Warsaw<br>BSc Statistics, University of Padova</dd></div>
+        <div><dt>Languages</dt><dd>English, Italian, Albanian</dd></div>
+        <div><dt>Toolbox</dt><dd>LangGraph, Langfuse, MCP, RAG, fine-tuning, Python, FastAPI, PostgreSQL, React, Docker, AWS, GCP, Azure</dd></div>
+      </dl>
+    </section>
 
-                <!-- Contact -->
-                    <section id="contact" class="wrapper style2 fade-up">
-                        <div class="inner">
-                            <h2>Get in touch</h2>
-                            <p>Always open to starting a new cool project, exploring new ideas, or connecting with curious tech enthusiasts.</p>
-                            <div class="split style1">
-                                <section>
-                                    <form method="post" action="#">
-                                    <form action="https://formspree.io/f/mpwydzbd" method="POST">
-                                        <div class="fields">
-                                            <div class="field half">
-                                                <label for="name">Name</label>
-                                                <input type="text" name="name" id="name" required />
-                                            </div>
-                                            <div class="field half">
-                                                <label for="email">Email</label>
-                                                <input type="email" name="email" id="email" required />
-                                            </div>
-                                            <div class="field">
-                                                <label for="message">Message</label>
-                                                <textarea name="message" id="message" rows="5" required></textarea>
-                                            </div>
-                                        </div>
-                                        <ul class="actions">
-                                            <li><button type="submit" class="button submit">Send Message</button></li>
-                                        </ul>
-                                    </form>
-                                </section>
-                                <section>
-                                    <ul class="contact">
-                                        <li>
-                                            <h3>Location</h3>
-                                            <span>Krakow, Poland<br />
-                                            Open to opportunities worldwide</span>
-                                        </li>
-                                        <li>
-                                            <h3>Email</h3>
-                                            <a href="mailto:contact@rezartabazi.dev">rezart392@gmail.com</a>
-                                        </li>
-                                        <li>
-                                            <h3>Professional</h3>
-                                            <a href="https://www.linkedin.com/in/rezart-abazi/" target="_blank">LinkedIn Profile</a>
-                                        </li>
-                                        <li>
-                                            <h3>Connect</h3>
-                                            <ul class="icons">
-                                                <li><a href="https://www.linkedin.com/in/rezart-abazi/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-                                                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                                                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                                                <li><a href="mailto:contact@rezartabazi.dev" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </section>
-                            </div>
-                        </div>
-                    </section>
+    <!-- Products -->
+    <section class="chapter wrap" id="products" aria-labelledby="products-title">
+      <div class="chapter__intro">
+        <h2 class="chapter__title" id="products-title">Products I build and run myself</h2>
+        <p>Six live products, each built end to end on my own time: the agents, the data, the interface and the deployment. All self-hosted on Coolify behind Cloudflare.</p>
+      </div>
 
+      <article class="feature" aria-labelledby="p-footbolski">
+        <div class="feature__text">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/footbolski.webp" alt="" width="48" height="48">
+            <div>
+              <h3 id="p-footbolski">Footbolski</h3>
+              <p class="product-head__meta">Weekly football, Kraków · in use every week since May 2026</p>
             </div>
+          </div>
+          <p>Runs a pickup game for about 20 players: waitlist, payment tracking, WhatsApp reminders. The hard part is fair teams, and that turned out to be a search problem, not a writing task.</p>
+          <p>The first version asked Claude for teams and reasoning in one go. Now Claude rates the players inside a LangGraph flow, an exhaustive solver builds the teams, and Claude explains the final split.</p>
 
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrollex.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
-            <script type="application/ld+json">
-            {
-              "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "Rezart Abazi",
-              "url": "https://rezart95.github.io/",
-              "sameAs": [
-                "https://www.linkedin.com/in/rezart-abazi/",
-                "https://github.com/rezart95"
-              ],
-              "jobTitle": "AI Engineer"
-            }</script>
+          <figure class="chart" aria-labelledby="chart-cap">
+            <figcaption id="chart-cap">Average strength gap between the two teams</figcaption>
+            <div class="chart__row">
+              <span class="chart__label">One-shot LLM split</span>
+              <span class="chart__track"><span class="chart__bar" style="--v: 1.79"></span></span>
+              <span class="chart__value">1.79</span>
+            </div>
+            <div class="chart__row chart__row--win">
+              <span class="chart__label">LLM judges, solver splits</span>
+              <span class="chart__track"><span class="chart__bar" style="--v: 0.03"></span></span>
+              <span class="chart__value">0.03</span>
+            </div>
+          </figure>
 
-    </body>
+          <p class="links">
+            <a href="https://footbolski.org" target="_blank" rel="noopener">footbolski.org <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="https://github.com/rezart95/footbolski" target="_blank" rel="noopener">Source on GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </p>
+        </div>
+        <figure class="feature__shot">
+          <img src="images/shots/footbolski-teams.webp" width="520" height="1125" loading="lazy" alt="Footbolski on a phone: Team A in red and Team B in blue, each player listed with a position">
+          <figcaption>Team screen, with sample players</figcaption>
+        </figure>
+      </article>
+
+      <ol class="products">
+        <li class="product">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/miredhelire.webp" alt="" width="40" height="40">
+            <div>
+              <h3>MiredheLire</h3>
+              <a href="https://miredhelire.al" target="_blank" rel="noopener">miredhelire.al <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product__body">
+            <p class="product__what">Price comparison for Albania. It scrapes shops and groups their offers into canonical products.</p>
+            <p class="product__how">A pipeline of specialised Claude agents: Haiku extracts identity, a Sonnet agent on the Claude Agent SDK resolves it with MCP tools, Sonnet places the category. Deterministic checks on every verdict, a cost ledger with budgets, and an Opus repair agent that opens code-fix PRs, built and waiting to deploy.</p>
+          </div>
+          <p class="product__figure"><span class="product__num">19,730</span><span>products from 12 shops<sup><a href="#fn1" id="fr1" aria-label="Note 1">1</a></sup></span></p>
+        </li>
+        <li class="product">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/fashionpricing.webp" alt="" width="40" height="40">
+            <div>
+              <h3>FashionPricing</h3>
+              <a href="https://fashionpricing.com" target="_blank" rel="noopener">fashionpricing.com <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product__body">
+            <p class="product__what">Competitive pricing intelligence for Polish fashion brands, with variant-level price history.</p>
+            <p class="product__how">Its analyst, Emily, is a LangGraph agent: a Haiku guard screens each question, a Sonnet ReAct agent answers with 15 read-only analytics tools, and every run is traced in Langfuse.</p>
+          </div>
+          <p class="product__figure"><span class="product__num">26</span><span>brands tracked</span></p>
+        </li>
+        <li class="product">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/almanac.webp" alt="" width="40" height="40">
+            <div>
+              <h3>Almanac</h3>
+              <a href="https://xtractor.financial-insights.uk" target="_blank" rel="noopener">xtractor.financial-insights.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product__body">
+            <p class="product__what">Turns a household's bank statements into a reconciled ledger, with analytics and a review queue.</p>
+            <p class="product__how">Categorisation weighs rules, merchant matching, Perplexity web enrichment and Claude batch classification, then a two-framing consensus: when the framings disagree, a person decides.</p>
+          </div>
+        </li>
+        <li class="product">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/my-finances.webp" alt="" width="40" height="40">
+            <div>
+              <h3>My Finances Analyst</h3>
+              <a href="https://my.financial-insights.uk" target="_blank" rel="noopener">my.financial-insights.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product__body">
+            <p class="product__what">Reads bank statements and turns them into a spending dashboard: overview, prices, habits, merchants.</p>
+            <p class="product__how">Azure AI Document Intelligence extracts every line from Bank Millennium PDFs; the transactions are categorised and charted in React, on desktop and phone.</p>
+          </div>
+          <p class="product__figure"><span class="product__num">1,328</span><span>real transactions, 2019–2022</span></p>
+        </li>
+        <li class="product">
+          <div class="product-head">
+            <img class="app-icon" src="images/apps/legalhub.webp" alt="" width="40" height="40">
+            <div>
+              <h3>LegalHub</h3>
+              <a href="https://legalhub.al" target="_blank" rel="noopener">legalhub.al <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product__body">
+            <p class="product__what">A legal assistant for Albania that answers from the country's legislation.</p>
+            <p class="product__how">Retrieval-augmented generation in LangGraph over Albanian law, so answers stay tied to the texts they come from.</p>
+          </div>
+        </li>
+      </ol>
+      <p class="footnote" id="fn1"><a href="#fr1" aria-label="Back to MiredheLire">1</a> New catalogue in the test environment; the live site still runs the previous matching logic.</p>
+    </section>
+
+    <!-- Contact -->
+    <section class="close" id="contact" aria-labelledby="contact-title">
+      <div class="wrap close__grid">
+        <h2 class="close__title" id="contact-title">Hiring for a senior AI role? I'd be glad to hear about it.</h2>
+        <div class="close__links">
+          <a class="close__email" href="mailto:rezart392@gmail.com">rezart392@gmail.com</a>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/rezart-abazi/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="https://github.com/rezart95" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="Rezart_Abazi_AI_Engineer.pdf" target="_blank" rel="noopener">Download CV <svg class="icon"><use href="#i-down"/></svg></a></li>
+          </ul>
+          <p class="close__place">Based in Kraków, Poland</p>
+        </div>
+      </div>
+      <footer class="wrap colophon">
+        <span>© 2026 Rezart Abazi</span>
+        <span>Set in Geist · Updated November 2026</span>
+      </footer>
+    </section>
+
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
 </html>

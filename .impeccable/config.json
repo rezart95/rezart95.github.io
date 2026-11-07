@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "createdAt": "2026-11-07T22:31:43.669Z",
+        "reason": "user confirmed: owner chose 'same family, own page' sharing the GitHub profile's Geist type (2026-11-07)"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-07T22:37:32.204Z",
+        "reason": "finish reviewer verified against screenshots: ruled table rows (.ledger__row, .product, .figure, .spread) have padding-block; flush-to-rule is the annual-report grammar"
+      }
+    ]
+  }
+}
