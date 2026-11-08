@@ -94,7 +94,7 @@ LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python · FastAPI · Postg
 
 ## Evidence on Hand
 
-- Photo: `images/my_photo_v2.png` (keep).
+- Photo: `images/portrait.webp`, a crop of the owner's original Data Science Summit photo with the lanyard removed by the owner (2026-11-08). Older photos deleted.
 - Company logos: `images/aldi-nord.png`, `proctergamble.png`, `dyvenia.png`, `citi.png` (keep); Motorola Solutions logo to be added as `images/motorola-solutions.*` from Wikimedia Commons.
 - CV: `Rezart_Abazi_AI_Engineer.pdf` (keep the download). **Out of date**: it lists ALDI as current and omits Motorola; the owner will supply a new PDF.
 - Project screenshots: footbolski repo `docs/screenshots/{landing,match,teams}.png`; my-finances-analyst repo `docs/screenshots/` (overview, prices, scan). App icons in `../rezart95/tools/banner/icons`.
