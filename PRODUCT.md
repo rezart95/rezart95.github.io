@@ -82,7 +82,7 @@ LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python · FastAPI · Postg
 - Footbolski is a regular product row, not the feature (owner: too simple to headline).
 - Motorola framing (owner, 2026-11-08): call it "an internal multi-agent system for the supply-chain department", not a "text-to-SQL agent", which undersells it. Text-to-SQL is one capability, described inside "What I built".
 - Footbolski's strength-gap chart is removed; contact shows "Email" rather than the address.
-- The site is installable as a PWA (manifest, icons in `icons/`, offline cache in `sw.js`).
+- The site is installable as a PWA (manifest, icons in `icons/`, offline cache in `sw.js`). The app icon and favicon are an "RA" monogram (Geist SemiBold, outlined, on the graphite tile with a short gold rule), chosen by the owner over the earlier orbit mark.
 - Motorola Solutions logo: the owner-supplied stacked logo, recoloured for the dark band (`images/logos/motorola-solutions-on-dark.png`).
 
 ## Brand Commitments
