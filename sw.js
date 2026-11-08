@@ -1,5 +1,5 @@
 // Offline cache for the installed site. Bump VERSION whenever shipped files change.
-const VERSION = 'v3-2026-11-08';
+const VERSION = 'v4-2026-11-08';
 const CACHE = `rezart-${VERSION}`;
 const CORE = [
   './',
