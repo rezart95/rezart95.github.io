@@ -116,7 +116,7 @@ Never attribute AWS or GCP to a project.
    - AI analyst "Emily": LangGraph with a Haiku input guard and a Sonnet ReAct
      agent over 15 read-only analytics tools, traced in Langfuse. Next.js.
    - **No customers claimed.**
-4. **Almanac** (https://xtractor.financial-insights.uk; private repo
+4. **Almanac** (https://fiscalmanager.uk; private repo
    bank-expense-tracker-ai, also called "Bank Extractor"). Turns a household's
    bank statements into a reconciled ledger with analytics and a review queue;
    used by a household of two.
@@ -124,7 +124,8 @@ Never attribute AWS or GCP to a project.
      Perplexity web enrichment, Claude batch classification, and a two-framing
      consensus that sends disagreements to human review.
    - The AI analyst chat is **specced, not built**. Never claim it.
-5. **My Finances Analyst** (https://my.financial-insights.uk; private). Bank
+5. **Statement Lens** (https://my.fiscalmanager.uk; private repo
+   my-finances-analyst; called My Finances Analyst until 2026-11-24). Bank
    Millennium statements are read by Azure AI Document Intelligence,
    categorised, and charted in a React dashboard. It runs on 1,328 real
    transactions from October 2019 to January 2022.
@@ -134,8 +135,10 @@ Never attribute AWS or GCP to a project.
        bar on mobile;
      - headline yearly totals count spending only;
      - typefaces are Schibsted Grotesk and JetBrains Mono;
-     - the landing copy and README were rewritten.
-   - Mobile screenshots are in that repo's `docs/screenshots/` (overview,
+     - the landing copy and README were rewritten;
+     - 2026-11-24: renamed Statement Lens with a new logo (a magnifier's glass
+       passing over a statement page), and versioned from v1.0.0.
+   - Mobile screenshots are in that repo's `developers_guide/screenshots/` (overview,
      prices, scan). Demo video:
      https://github.com/user-attachments/assets/44c77343-6916-4af2-86d1-dd8a294d306b
 6. **LegalHub** (https://legalhub.al; repo avokati / LegalHub). Albanian legal
