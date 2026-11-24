@@ -244,7 +244,7 @@ A full-bleed `space` band. The head pairs the employer (the owner-supplied stack
 No comparison chart ships since 2026-11-08 (the owner removed the Footbolski chart). The `bar-neutral` and `chart-track` tokens stay reserved for a future data chart, which would follow the same grammar: ruled rows, tabular values, the winning value in `gold-ink`.
 
 ### Device Shot
-An authored concept screen of the featured product, drawn in HTML in that product's own palette (Almanac's green paper, spine and stamp purple), inside a 7px `ink` frame with `rounded.device` corners, max 300px wide, right-aligned on columns 9-12. Its caption always says it is a concept with illustrative figures.
+An authored concept screen of the featured product, drawn in HTML in that product's own palette (Fiscal Manager's green paper, spine and stamp purple), inside a 7px `ink` frame with `rounded.device` corners, max 300px wide, right-aligned on columns 9-12. Its caption always says it is a concept with illustrative figures.
 
 ## Do's and Don'ts
 

@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rezart Abazi · Senior AI Engineer</title>
-  <meta name="description" content="Rezart Abazi, Senior AI Engineer in Kraków. Multi-agent systems, RAG and agentic AI in production, plus six AI products he builds and runs himself.">
+  <meta name="description" content="Rezart Abazi, Senior AI Engineer in Kraków. Multi-agent systems, RAG and agentic AI in production, plus five AI products he builds and runs himself.">
   <meta name="theme-color" content="#FFFFFF">
   <link rel="canonical" href="https://rezart95.github.io/">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Rezart Abazi · Senior AI Engineer">
-  <meta property="og:description" content="Multi-agent systems, RAG and agentic AI in production, plus six AI products built and run end to end.">
+  <meta property="og:description" content="Multi-agent systems, RAG and agentic AI in production, plus five AI products built and run end to end.">
   <meta property="og:url" content="https://rezart95.github.io/">
   <meta property="og:image" content="https://rezart95.github.io/images/portrait.webp">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -63,7 +63,7 @@
     <section class="cover wrap" id="top" aria-labelledby="cover-title">
       <div class="cover__text">
         <h1 class="cover__title" id="cover-title">Senior AI&nbsp;Engineer</h1>
-        <p class="cover__pitch">I build multi-agent and RAG systems that hold up in front of real users: at work for an entire supply-chain department, after hours for six products I run myself.</p>
+        <p class="cover__pitch">I build multi-agent and RAG systems that hold up in front of real users: at work for an entire supply-chain department, after hours for five products I run myself.</p>
         <div class="cover__actions">
           <a class="btn btn--solid" href="mailto:rezart392@gmail.com">Email me</a>
           <a class="btn" href="https://www.linkedin.com/in/rezart-abazi/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a>
@@ -132,6 +132,13 @@
           <p>Answer quality is tested and traced in Langfuse, so the agents are judged on evidence.</p>
         </li>
       </ol>
+      <div class="also">
+        <p class="also__label">Also at Motorola</p>
+        <div class="also__body">
+          <h3>Supply-chain risk management</h3>
+          <p>An agentic app that gives the business a better handle on its high-risk components.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Experience -->
@@ -182,16 +189,16 @@
     <section class="chapter wrap" id="products" aria-labelledby="products-title">
       <h2 class="chapter__title" id="products-title">Products I build and run myself</h2>
 
-      <article class="feature" aria-labelledby="p-almanac">
+      <article class="feature" aria-labelledby="p-fiscal">
         <div class="feature__text">
           <div class="product-head">
-            <img class="app-icon" src="images/apps/almanac.webp" alt="" width="48" height="48">
+            <img class="app-icon" src="images/apps/fiscal-manager.webp" alt="" width="48" height="48">
             <div>
-              <h3 id="p-almanac">Almanac</h3>
+              <h3 id="p-fiscal">Fiscal Manager</h3>
               <p class="product-head__meta">Household finance · used by a household of two · agents in development</p>
             </div>
           </div>
-          <p>Almanac already turns bank statements into a reconciled ledger. Categorisation weighs several signals, from merchant matching and web enrichment to Claude batch classification, and a two-framing consensus sends every disagreement to a person.</p>
+          <p>Fiscal Manager already turns bank statements into a reconciled ledger. Categorisation weighs several signals, from merchant matching and web enrichment to Claude batch classification, and a two-framing consensus sends every disagreement to a person.</p>
           <p>Next, it becomes a multi-agent system that runs our household finances. Each agent gets only the tools it needs, served over MCP, and nothing is written without a person confirming it.</p>
 
           <dl class="agents">
@@ -202,14 +209,14 @@
           </dl>
 
           <p class="links">
-            <a href="https://xtractor.financial-insights.uk" target="_blank" rel="noopener">xtractor.financial-insights.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="https://fiscalmanager.uk" target="_blank" rel="noopener">fiscalmanager.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
           </p>
         </div>
 
         <figure class="feature__shot">
-          <div class="phone" role="img" aria-label="Concept of the Almanac assistant on a phone. Asked whether the household can afford a flat by 2029, four agents report their steps and the answer proposes a savings goal that waits for confirmation.">
+          <div class="phone" role="img" aria-label="Concept of the Fiscal Manager assistant on a phone. Asked whether the household can afford a flat by 2029, four agents report their steps and the answer proposes a savings goal that waits for confirmation.">
             <div class="am" aria-hidden="true">
-              <div class="am__top"><span class="am__brand">Almanac</span><span class="am__scope">Household</span></div>
+              <div class="am__top"><span class="am__brand">Fiscal Manager</span><span class="am__scope">Household</span></div>
               <p class="am__q">Can we afford a flat by 2029?</p>
               <ol class="am__trace">
                 <li><b>Analyst</b> read four years of the ledger</li>
@@ -244,7 +251,7 @@
             <p class="product__what">Price comparison for Albania. It scrapes shops and groups their offers into canonical products.</p>
             <p class="product__how">A pipeline of specialised Claude agents: Haiku extracts identity, a Sonnet agent on the Claude Agent SDK resolves it with MCP tools, Sonnet places the category. Deterministic checks on every verdict, a cost ledger with budgets, and an Opus repair agent that opens code-fix PRs, built and waiting to deploy.</p>
           </div>
-          <p class="product__figure"><span class="product__num">100,000+</span><span>products, the catalogue's target</span></p>
+          <p class="product__figure"><span class="product__num">1M+</span><span>products</span></p>
         </li>
         <li class="product">
           <div class="product-head">
@@ -258,7 +265,7 @@
             <p class="product__what">Competitive pricing intelligence for Polish fashion brands, with variant-level price history.</p>
             <p class="product__how">Its analyst, Emily, is a LangGraph agent: a Haiku guard screens each question, a Sonnet ReAct agent answers with 15 read-only analytics tools, and every run is traced in Langfuse.</p>
           </div>
-          <p class="product__figure"><span class="product__num">30+</span><span>brands tracked</span></p>
+          <p class="product__figure"><span class="product__num">50+</span><span>brands tracked</span></p>
         </li>
         <li class="product">
           <div class="product-head">
@@ -286,19 +293,18 @@
             <p class="product__how">Claude rates the players inside a LangGraph flow, an exhaustive solver builds the teams, and Claude explains the split. <a href="https://github.com/rezart95/footbolski" target="_blank" rel="noopener">Source on GitHub</a>.</p>
           </div>
         </li>
-        <li class="product">
+        <li class="product" id="thesis">
           <div class="product-head">
-            <img class="app-icon" src="images/apps/my-finances.webp" alt="" width="40" height="40">
+            <img class="app-icon" src="images/apps/thesis.webp" alt="" width="40" height="40">
             <div>
-              <h3>My Finances Analyst</h3>
-              <a href="https://my.financial-insights.uk" target="_blank" rel="noopener">my.financial-insights.uk <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <h3>ML Thesis</h3>
+              <p class="product-head__meta">In preparation</p>
             </div>
           </div>
           <div class="product__body">
-            <p class="product__what">Reads bank statements and turns them into a spending dashboard: overview, prices, habits, merchants.</p>
-            <p class="product__how">Azure AI Document Intelligence extracts every line from Bank Millennium PDFs; the transactions are categorised and charted in React, on desktop and phone.</p>
+            <p class="product__what">A machine learning project for my bachelor thesis.</p>
+            <p class="product__how">The write-up and the code will be published here when it is ready.</p>
           </div>
-          <p class="product__figure"><span class="product__num">1,400</span><span>real transactions, 2019–2022</span></p>
         </li>
       </ol>
     </section>

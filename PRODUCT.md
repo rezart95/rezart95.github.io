@@ -21,7 +21,7 @@ The personal website of Rezart Abazi, Senior AI Engineer, at https://rezart95.gi
 
 ## Positioning
 
-A working engineer who ships production AI: at Motorola Solutions a multi-agent text-to-SQL system used by a 1,500-person supply-chain department, and on his own six live products he built and runs end to end. The headline is agentic AI, multi-agent systems and RAG. Cloud providers are a detail, never the headline (owner's explicit instruction: do not frame him around AWS or GCP).
+A working engineer who ships production AI: at Motorola Solutions a multi-agent system used by a 1,500-person supply-chain department and an agentic app for supply-chain risk management, and on his own five live products he built and runs end to end. The headline is agentic AI, multi-agent systems and RAG. Cloud providers are a detail, never the headline (owner's explicit instruction: do not frame him around AWS or GCP).
 
 ## Operating Context
 
@@ -43,6 +43,7 @@ A working engineer who ships production AI: at Motorola Solutions a multi-agent 
    - Integrated the agent into **Google Chat** via its SDK so business users can ask questions where they already work.
    - Evaluation and testing with **Langfuse**.
    - First 100 days: **14,000+ queries, 800+ unique users, 50,000+ requests**, average answer time about **20 seconds**.
+   - Built an **agentic app for supply-chain risk management**, for better management of high-risk components (owner, 2026-11-24; no further detail or figures yet).
    - Uses AWS and partly GCP at work (detail only, not headline).
    - The owner will provide more achievements later; claim only what is listed here.
 2. **ALDI Nord** (display name; internally ALDI Tech Hub), AI Engineer, **Dec 2023 – Jan 2026**, Kraków. Customer-care RAG chatbot (Salesforce knowledge base via API, Azure AI Foundry, Databricks Vector Search, OpenAI embeddings); FastAPI service integrating answers into the internal customer-care tool; contributed to the organisation-wide AI strategy and use-case selection; improved the internal A/B testing platform.
@@ -63,11 +64,12 @@ A working engineer who ships production AI: at Motorola Solutions a multi-agent 
 None uses AWS or GCP; all are self-hosted on Coolify behind Cloudflare. Never attribute AWS or GCP to a project.
 
 1. **Footbolski**: https://footbolski.org, public repo rezart95/footbolski. PWA running a weekly pickup football game in Kraków for about 20 people, in weekly use since May 2026: waitlist, payment tracking, WhatsApp reminders. LangGraph + Claude team splitter: the model judges players, a deterministic exhaustive solver builds the teams, Claude explains the split. One-shot LLM splits averaged a 1.79 strength gap; the solver averages 0.03.
-2. **MiredheLire**: https://miredhelire.al (private). Albanian price comparison: scrapes Albanian shops and groups offers into canonical products, about 19,730 products from 12 shops in the new catalogue on UAT (production still runs older logic). Pipeline of specialised Claude agents: Haiku identity extraction; Sonnet identity agent on the Claude Agent SDK with MCP tools (catalog search, web search, page fetch); Sonnet category placement; Opus repair agent that opens code-fix PRs (**built, not deployed**). Deterministic checks on every verdict; cost ledger with budgets. Redis/arq, Next.js, Prometheus.
-3. **FashionPricing**: https://fashionpricing.com (private). B2B competitive pricing intelligence for Polish fashion brands; tracks 26 brands with variant-level price history. AI analyst "Emily": LangGraph, Haiku input guard, Sonnet ReAct agent over 15 read-only analytics tools, traced in Langfuse. Next.js. **No customers claimed.**
-4. **Almanac**: https://xtractor.financial-insights.uk (private). Turns a household's bank statements into a reconciled ledger with analytics and a review queue; used by a household of two. Multi-signal categorisation: rules, merchant matching, Perplexity web enrichment, Claude batch classification, and a two-framing consensus that sends disagreements to human review. The AI analyst chat is **specced, not built**: never claim it.
-5. **My Finances Analyst**: https://my.financial-insights.uk (private). Bank Millennium statements read by Azure AI Document Intelligence, categorised, charted in a React dashboard; 1,328 real transactions, Oct 2019 – Jan 2022.
+2. **MiredheLire**: https://miredhelire.al (private). Albanian price comparison: scrapes Albanian shops and groups offers into canonical products, about 19,730 products from 12 shops in the new catalogue on UAT (production still runs older logic); owner, 2026-11-24: now over 1 million products. Pipeline of specialised Claude agents: Haiku identity extraction; Sonnet identity agent on the Claude Agent SDK with MCP tools (catalog search, web search, page fetch); Sonnet category placement; Opus repair agent that opens code-fix PRs (**built, not deployed**). Deterministic checks on every verdict; cost ledger with budgets. Redis/arq, Next.js, Prometheus.
+3. **FashionPricing**: https://fashionpricing.com (private). B2B competitive pricing intelligence for Polish fashion brands; tracks 26 brands with variant-level price history (owner, 2026-11-24: now over 50). AI analyst "Emily": LangGraph, Haiku input guard, Sonnet ReAct agent over 15 read-only analytics tools, traced in Langfuse. Next.js. **No customers claimed.**
+4. **Fiscal Manager** (called Almanac until 2026-11-24, new robot-and-loupe mark): https://fiscalmanager.uk (private repo bank-expense-tracker-ai). Turns a household's bank statements into a reconciled ledger with analytics and a review queue; used by a household of two. Multi-signal categorisation: rules, merchant matching, Perplexity web enrichment, Claude batch classification, and a two-framing consensus that sends disagreements to human review. The AI analyst chat is **specced, not built**: never claim it.
+5. **Statement Lens** (called My Finances Analyst until 2026-11-24): https://my.fiscalmanager.uk (private). **Not shown on the site or the profile dock** since 2026-11-24: the owner considers it redundant with Fiscal Manager. Bank Millennium statements read by Azure AI Document Intelligence, categorised, charted in a React dashboard; 1,328 real transactions, Oct 2019 – Jan 2022.
 6. **LegalHub**: https://legalhub.al. Albanian legal assistant, LangGraph RAG over Albanian legislation.
+7. **ML Thesis** (placeholder): a machine learning project for the owner's bachelor thesis, in preparation. No name, link, stack or results yet; show it only as "in preparation" until the owner supplies details.
 
 Dropped, never shown: Restok inventory app, Fashion Procurement placeholder, "AI Lawyer" at avokatiyt.al (superseded by LegalHub), the old onrender.com demo links.
 
@@ -85,6 +87,13 @@ LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python · FastAPI · Postg
 - The site is installable as a PWA (manifest, icons in `icons/`, offline cache in `sw.js`). The app icon and favicon are an "RA" monogram (Geist SemiBold, outlined, on the graphite tile with a short gold rule), chosen by the owner over the earlier orbit mark.
 - Motorola Solutions logo: the owner-supplied stacked logo, recoloured for the dark band (`images/logos/motorola-solutions-on-dark.png`).
 
+### Owner decisions, 2026-11-24 (override the earlier display figures)
+- Display figures: MiredheLire **1M+ products** (a current count per the owner, no longer a target); FashionPricing **50+ brands**.
+- Almanac is renamed **Fiscal Manager** with a new mark; the featured block, concept screen and links use the new name and https://fiscalmanager.uk.
+- **Statement Lens (My Finances Analyst) is removed** from the site and the profile dock as redundant with Fiscal Manager. Its row is replaced by the **ML Thesis** placeholder (`#thesis`), whose icon is a placeholder mark (a classifier's S-curve between two classes of points) until the project has its own.
+- The cover and meta copy count **five** products.
+- Motorola: the supply-chain risk management app sits under "What I built" as "Also at Motorola"; the key figures belong to the multi-agent system only.
+
 ## Brand Commitments
 
 - Voice: professional but entertaining. No emojis. No AI-sounding filler or awkward phrasing (e.g. "rounding up my knowledge with Terraform"). Seniority shown through decisions and results, not adjectives.
@@ -97,7 +106,7 @@ LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python · FastAPI · Postg
 - Photo: `images/portrait.webp`, a crop of the owner's original Data Science Summit photo with the lanyard removed by the owner (2026-11-08). Older photos deleted.
 - Company logos: `images/aldi-nord.png`, `proctergamble.png`, `dyvenia.png`, `citi.png` (keep); Motorola Solutions logo to be added as `images/motorola-solutions.*` from Wikimedia Commons.
 - CV: `Rezart_Abazi_AI_Engineer.pdf` (keep the download). **Out of date**: it lists ALDI as current and omits Motorola; the owner will supply a new PDF.
-- Project screenshots: footbolski repo `docs/screenshots/{landing,match,teams}.png`; my-finances-analyst repo `docs/screenshots/` (overview, prices, scan). App icons in `../rezart95/tools/banner/icons`.
+- Project screenshots: footbolski repo `docs/screenshots/{landing,match,teams}.png`; my-finances-analyst repo `developers_guide/screenshots/` (overview, prices, scan). App icons in `../rezart95/tools/banner/icons`.
 - No customers, testimonials, certifications or benchmarks beyond those stated above. Do not invent any.
 - Contact form: removed by owner's choice; contact is email + LinkedIn + GitHub.
 

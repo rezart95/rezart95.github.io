@@ -9,8 +9,8 @@ related_targets: []
 
 Scope: the whole single-page site at rezart95.github.io. Visitor mode: **Persuade**: a recruiter decides whether to call; the action is email / LinkedIn / CV download.
 
-Audience and job: recruiters and hiring managers for senior AI roles, ~60 seconds, often on a phone from LinkedIn. They must leave knowing: Senior AI Engineer, production multi-agent work at scale (Motorola Solutions), six self-built live products, how to reach him.
-Proof on hand: Motorola first-100-days figures; Footbolski 1.79 vs 0.03; MiredheLire 19,730 products / 12 shops; FashionPricing 26 brands / 15 tools; My Finances 1,328 transactions; P&G 2,000+ campaigns / 20%. All facts from PRODUCT.md only.
+Audience and job: recruiters and hiring managers for senior AI roles, ~60 seconds, often on a phone from LinkedIn. They must leave knowing: Senior AI Engineer, production multi-agent work at scale (Motorola Solutions), five self-built live products, how to reach him.
+Proof on hand: Motorola first-100-days figures; Footbolski 1.79 vs 0.03; MiredheLire 1M+ products; FashionPricing 50+ brands / 15 tools; P&G 2,000+ campaigns / 20%. All facts from PRODUCT.md only.
 Constraints: hero shows title only (no employer); no hacker/terminal look, no template feel, no walls of text, no heavy animation; plain static HTML/CSS/JS on GitHub Pages; keep photo, CV link, company logos; no contact form.
 
 ## Direction contract

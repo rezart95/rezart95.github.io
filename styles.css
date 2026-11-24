@@ -204,6 +204,14 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
 .decisions li { padding-top: var(--s2); border-top: 2px solid var(--gold); }
 .decisions h3 { font-size: 1.1875rem; font-weight: 500; letter-spacing: -0.015em; line-height: 1.3; margin-bottom: 0.6rem; }
 .decisions p { color: var(--ink-2); font-size: 1rem; line-height: 1.55; }
+.also {
+  display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--s3); row-gap: 0.5rem;
+  margin-top: var(--s5); padding-top: var(--s2); border-top: 1px solid var(--rule-strong);
+}
+.also__label { grid-column: 1 / span 3; color: var(--muted); font-size: 0.9375rem; padding-top: 0.2rem; }
+.also__body { grid-column: 4 / span 7; }
+.also__body h3 { font-size: 1.1875rem; font-weight: 500; letter-spacing: -0.015em; line-height: 1.3; margin-bottom: 0.4rem; }
+.also__body p { color: var(--ink-2); max-width: 60ch; }
 
 /* Ledger */
 .ledger__row {
@@ -259,7 +267,7 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
   background: var(--ink); overflow: hidden;
 }
 
-/* Almanac concept screen, drawn in Almanac's own palette */
+/* Fiscal Manager concept screen, drawn in the app's own palette */
 .am {
   --am-paper: #e9f0e7; --am-raised: #f5f8f3; --am-rule: #bfd0be; --am-ink: #142019; --am-ink-2: #3f5246;
   --am-spine: #1e3a2b; --am-spine-ink: #e9f0e7; --am-stamp: #4a3c99; --am-stamp-wash: #e4e0f3; --am-green: #1e5a3c;
@@ -354,6 +362,8 @@ html { scrollbar-color: #C7CBD3 var(--paper); }
   .figure--lead { grid-column: 1; padding-right: 0; padding-bottom: var(--s3); border-right: 0; border-bottom: 1px solid var(--space-rule); }
   .figure-list { grid-column: 1; }
   .ledger__date { grid-column: 1 / -1; padding-top: 0; }
+  .also__label, .also__body { grid-column: 1 / -1; }
+  .also__label { padding-top: 0; }
   .ledger__org { grid-column: 1 / -1; }
   .ledger__result { grid-column: 1 / -1; }
   .facts > div:nth-child(n) { grid-column: 1 / -1; margin-top: var(--s2); }

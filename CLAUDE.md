@@ -19,7 +19,11 @@ This file sums up the recent work on the owner's other public surfaces
 ## Who he is (confirmed by the owner)
 
 - Title: **Senior AI Engineer**. Current employer: Motorola Solutions, where he
-  designs multi-agent systems. Describe that work generically, with no details.
+  designs multi-agent systems. On the GitHub profile, describe that work
+  generically, with no details. The site states what the owner confirmed
+  (`PRODUCT.md`): the supply-chain multi-agent system with its first-100-days
+  figures, and an agentic app for supply-chain risk management (better
+  management of high-risk components; no figures yet).
   At work he uses AWS and partly GCP.
 - Previously at ALDI Tech Hub, where he built internal AI solutions on Azure.
 - Contact: rezart392@gmail.com · LinkedIn https://www.linkedin.com/in/rezart-abazi/ · GitHub https://github.com/rezart95
@@ -42,8 +46,10 @@ What the profile shows now, from top to bottom:
      AGENTS (gold), MCP, EVALS, GUARDRAILS, RAG, TOOLS, FINE-TUNING, MEMORY,
      CONTEXT, EMBEDDINGS.
 2. **Project dock** (`assets/dock/*.svg`), joined under the banner as one dark
-   panel: a "MY WORK" tile linking to this website, then six app tiles, each
-   showing the app's own icon and linking to the live product.
+   panel: a "MY WORK" tile linking to this website, then six tiles: Footbolski,
+   MiredheLire, FashionPricing, Fiscal Manager and LegalHub (each with the app's
+   own icon, linking to the live product), and an "ML Thesis" placeholder
+   linking to this site's `#thesis` row (since 2026-11-24).
 3. Toolbox line: LangGraph · Langfuse · MCP · RAG · Fine-tuning · Python ·
    FastAPI · PostgreSQL · React · Docker · AWS · GCP · Azure.
 4. Contact line: LinkedIn · rezart95.github.io · email.
@@ -101,7 +107,8 @@ Never attribute AWS or GCP to a project.
 2. **MiredheLire** (https://miredhelire.al; private, Illyrian-AI/miredhelire).
    Albanian price comparison. It scrapes Albanian shops and groups their
    offers into canonical products: about 19,730 products from 12 shops in the
-   new catalogue on UAT (production still runs older logic).
+   new catalogue on UAT (production still runs older logic). The owner said on
+   2026-11-24 it is now over 1 million products; the site shows 1M+.
    - A pipeline of specialised Claude agents:
      - Haiku identity extraction;
      - a Sonnet identity agent on the Claude Agent SDK with MCP tools (catalog
@@ -112,12 +119,15 @@ Never attribute AWS or GCP to a project.
    - Stack includes Redis/arq, Next.js and Prometheus.
 3. **FashionPricing** (https://fashionpricing.com; private repo fashion-analytics).
    B2B competitive pricing intelligence for Polish fashion brands. It tracks 26
-   brands with variant-level price history.
+   brands with variant-level price history (over 50 per the owner, 2026-11-24;
+   the site shows 50+).
    - AI analyst "Emily": LangGraph with a Haiku input guard and a Sonnet ReAct
      agent over 15 read-only analytics tools, traced in Langfuse. Next.js.
    - **No customers claimed.**
-4. **Almanac** (https://fiscalmanager.uk; private repo
-   bank-expense-tracker-ai, also called "Bank Extractor"). Turns a household's
+4. **Fiscal Manager** (https://fiscalmanager.uk; private repo
+   bank-expense-tracker-ai; called Almanac until 2026-11-24, when it got a new
+   mark: a round robot head whose right eye is a loupe on the euro sign). The
+   site's featured product. Turns a household's
    bank statements into a reconciled ledger with analytics and a review queue;
    used by a household of two.
    - Categorisation combines several signals: rules, merchant matching,
@@ -125,7 +135,9 @@ Never attribute AWS or GCP to a project.
      consensus that sends disagreements to human review.
    - The AI analyst chat is **specced, not built**. Never claim it.
 5. **Statement Lens** (https://my.fiscalmanager.uk; private repo
-   my-finances-analyst; called My Finances Analyst until 2026-11-24). Bank
+   my-finances-analyst; called My Finances Analyst until 2026-11-24). **Not
+   shown on the site or the profile dock** since 2026-11-24: the owner finds it
+   redundant with Fiscal Manager. Bank
    Millennium statements are read by Azure AI Document Intelligence,
    categorised, and charted in a React dashboard. It runs on 1,328 real
    transactions from October 2019 to January 2022.
@@ -143,6 +155,10 @@ Never attribute AWS or GCP to a project.
      https://github.com/user-attachments/assets/44c77343-6916-4af2-86d1-dd8a294d306b
 6. **LegalHub** (https://legalhub.al; repo avokati / LegalHub). Albanian legal
    assistant using LangGraph RAG over Albanian legislation.
+7. **ML Thesis** (placeholder, since 2026-11-24): a machine learning project
+   for the owner's bachelor thesis, in preparation. No name, link, stack or
+   results yet; show it only as "in preparation". Its icon is a placeholder
+   mark (a classifier's S-curve between two classes of points).
 
 Dropped and not to be shown: the Restok inventory app and the Fashion
 Procurement placeholder.
